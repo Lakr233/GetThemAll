@@ -8,6 +8,12 @@ This is a Chrome Extension to download all elements on website supporting not on
 
 ![Screenshot](./screenshot.png)
 
+## What to notice
+
+I DO NOT CONFIRM THIS COPY IS SAFE
+
+I been using this copy for 3 years or so. It should be safe but I DO_NOT promise you that. You can take over this copy and rewrite it if you like to. PRs are welcome.
+
 ## Why is this
 
 This is a copy of GetThemAll from Google Chrome Extension Store.
