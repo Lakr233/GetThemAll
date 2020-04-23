@@ -20,4 +20,8 @@ Here is a backup I looked it up for 30 min in my backups.
 
 Clearly, I dont have any license of this extension. If anything goes wrong, contact me in the issue and I will follow up asap.
 
+## A little bit more
+
+I have modified the manifest.json due some **Chrome Jobs** The Chome will not enable this if I dont do or simply delete it like the same way last time I lost it.
+
 Enjoy - Lakr Aream - 2020 04 23
