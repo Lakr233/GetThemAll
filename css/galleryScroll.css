@@ -1,0 +1,248 @@
+.page{
+	background: url( /images/converter_bg.png );
+	height: 252px;
+	border-top: 1px solid #94e2ff;
+	border-bottom: 1px solid #94e2ff;
+	position: relative;	
+}
+.page .title{
+	position:absolute;
+	width:620px;
+	height:35px;
+	top:3px;
+}
+
+.gallery-block{
+	width:620px;
+	height:252px;
+	position:relative;
+	/*overflow:hidden;*/
+}
+.gallery-block .carousel{
+	width:620px;
+	height:252px;
+	/*overflow:hidden;*/
+	position:relative;
+}
+.gallery-block .carousel .link-prev,
+.gallery-block .carousel .link-next{display:none;}
+.gallery-block .carousel .frame{
+	width:345px;
+	height:210px;
+	overflow:hidden;
+	position:absolute;
+	bottom:0px;
+	left:5px;
+}
+.gallery-block .carousel .frame ul{
+	position:absolute;
+	width:99999px;
+	padding:0;
+	margin:0;
+	list-style:none;
+	top:0;
+	left:0;
+	overflow:hidden;
+}
+.gallery-block .carousel .frame ul li {
+	float:left;
+	width:345px;
+	height:210px;
+	padding:0;
+	position:relative;
+}
+/* swicher */
+.gallery-block .switcher{
+	position:absolute;
+	right:215px;
+	top:220px;
+	z-index:100;
+	overflow:hidden;
+	padding:0;
+}
+.gallery-block .switcher ul{
+	padding:0;
+	margin:0;
+	height:1%;
+	list-style:none;
+	font-size:10px;
+}
+.gallery-block .switcher ul li{
+	float:left;
+	padding:0 6px 0 0;
+}
+.gallery-block .switcher ul li a{
+	float:left;
+	text-indent:-9999px;
+	overflow:hidden;
+	background:url(../images/bullet01.png) no-repeat;
+	width:18px;
+	height:17px;
+}
+.gallery-block .switcher ul li a:hover{
+	background-position:0 -17px;
+}
+.gallery-block .switcher ul li a.active{
+	background-position:0 -34px;
+}
+.gallery-block .image{
+	position:absolute;
+	bottom:0;
+	right:0;
+	z-index:10;
+}
+.gallery-block .text{
+	position:absolute;
+	top:17px;
+	left:15px;
+	width:216px;
+	height:72px;
+	overflow:hidden;
+	font:14px/16px Arial, Helvetica, sans-serif;
+	color:#4d4d4d;
+}
+.gallery-block h2{
+	margin:0;
+	font:bold 20px/24px Arial, Helvetica, sans-serif;
+	color:#313030;
+}
+.gallery-block p{
+	margin:13px 0 0;
+}
+.gallery-block .download-box{
+	position:absolute;
+	width:200px;
+	height:27px;
+	bottom:10px;
+	right: 10px;
+	z-index:50;
+	background:url(../images/bg_download.png) no-repeat;
+}
+.gallery-block .download-box .download{
+	display:block;
+	width:170px;
+	height:17px;
+	overflow:hidden;
+	text-align: center;
+	text-decoration:none;
+	margin-top:4px;
+	margin-left:13px;
+}
+.gallery-block .download:hover{
+	text-decoration:none;
+}
+.gallery-block .download .drop{
+	width:170px;
+	height:17px;
+	font:12px/14px Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color:#ffffff;
+}
+.gallery-block .download:hover .drop{
+}
+
+#safeByDialogContainer{
+	position: absolute;
+	top: 40px;
+	right: 10px;
+	width: 255px;
+	height: 164px;
+	cursor: default;
+	font-weight: bold;
+	word-wrap: break-word; 
+	overflow:hidden;
+	background: #003399;
+}
+
+#safeByDialogContainer .dialog{	
+	width: 82px;
+	height: 68px;
+	background: url( ../images/bg-popup.png );
+	position: absolute;
+	margin-top: -72x;
+	margin-left: 36px;
+	display: none;
+	z-index: 100500;
+}
+
+#safeByDialogContainer:hover .dialog{
+	display: block;
+}
+
+#safeByDialogContainer .dialog > div{
+	position: relative;
+}
+
+#safeByDialogContainer .norton{
+	display: block;
+	
+	width: 30px;
+	height: 35px;
+	
+	top: 12px;
+	left: 6px;
+	
+	background: url( ../images/safe-by-norton.png );
+	
+	position: absolute;
+}
+
+#safeByDialogContainer .webutation{
+	display: block;	
+	
+	width: 38px;
+	height: 33px;
+	
+	top: 12px;
+	right: 5px;
+	
+	background: url( ../images/safe-by-webutation.png );	
+	
+	position: absolute;
+}
+
+.installIQ {
+		font-size: 10px;
+		width: 229px;
+		position: absolute;
+		top: 64px;
+		left: 21px;
+		}
+		
+.installIQ   a{
+		font-weight: bold;
+		}
+		
+
+.list-block{
+	position: absolute;
+	top: 40px;
+	right: 10px;
+	width: 255px;
+	height: 159px;
+	cursor: default;
+	font-weight: bold;
+	word-wrap: break-word; 
+	overflow:hidden;
+	background: #003399;
+}
+.list-block ul{
+	width:220px;
+	word-wrap: break-word;
+	max-height:150px;
+	color:#fff;
+}
+.list-block ul li{
+	float:left;
+	margin-left: -15px;
+	width:220px;
+	font:13px/16px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color:#fff;
+}
+.list-block ul li:first-child{
+}
+.list-block p{
+}
+		
+		

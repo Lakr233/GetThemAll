@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>3dspeeddial_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="assets" sketch:type="MSArtboardGroup" transform="translate(-85.000000, -115.000000)">
+            <g id="3dspeeddial_icon" sketch:type="MSLayerGroup" transform="translate(84.000000, 114.000000)">
+                <g id="Group" transform="translate(4.000000, 7.000000)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-55" fill="#3CADE5" x="0" y="0.0130718954" width="4.43863471" height="4.43863471" rx="1"></rect>
+                    <rect id="Rectangle-56" fill="#F8AC00" x="5.54829339" y="0.0130718954" width="4.43863471" height="4.43863471" rx="1"></rect>
+                    <rect id="Rectangle-57" fill="#35AD00" x="5.54829339" y="5.56136529" width="4.43863471" height="4.43863471" rx="1"></rect>
+                    <rect id="Rectangle-58" fill="#ED1700" x="0" y="5.56136529" width="4.43863471" height="4.43863471" rx="1"></rect>
+                </g>
+                <path d="M2.58123819,7.81373347 L9.58123819,2.81373347 C10.0306508,2.49272448 10.1347425,1.86817439 9.81373347,1.41876181 C9.49272448,0.96934922 8.86817439,0.865257538 8.41876181,1.18626653 L1.41876181,6.18626653 C0.96934922,6.50727552 0.865257538,7.13182561 1.18626653,7.58123819 C1.50727552,8.03065078 2.13182561,8.13474246 2.58123819,7.81373347 L2.58123819,7.81373347 Z" id="Shape" fill="#626262" sketch:type="MSShapeGroup"></path>
+                <path d="M14,4.5 L14,2 C14,1.44771525 13.5522847,1 13,1 C12.4477153,1 12,1.44771525 12,2 L12,4.5 C12,5.05228475 12.4477153,5.5 13,5.5 C13.5522847,5.5 14,5.05228475 14,4.5 L14,4.5 Z" id="Shape" fill="#626262" sketch:type="MSShapeGroup"></path>
+                <path d="M16.5812382,6.18626653 L9.58123819,1.18626653 C9.13182561,0.865257538 8.50727552,0.96934922 8.18626653,1.41876181 C7.86525754,1.86817439 7.96934922,2.49272448 8.41876181,2.81373347 L15.4187618,7.81373347 C15.8681744,8.13474246 16.4927245,8.03065078 16.8137335,7.58123819 C17.1347425,7.13182561 17.0306508,6.50727552 16.5812382,6.18626653 L16.5812382,6.18626653 Z" id="Shape" fill="#626262" sketch:type="MSShapeGroup"></path>
+                <rect id="bounds" sketch:type="MSShapeGroup" x="1" y="1" width="16" height="16"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

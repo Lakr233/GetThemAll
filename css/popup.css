@@ -1,0 +1,1227 @@
+/*reset*/
+.gta_downloader_global, .gta_downloader_global * {
+	margin:0;
+	padding:0;
+	box-shadow:none;
+	border:none;
+	border-radius:0;
+	line-height:normal;
+	vertical-align:baseline;
+	color:#3b3b3b;
+	font-size:100%;
+	font-weight:normal;
+	font-style:normal;
+	background:none;
+	position:static;
+	left:auto;
+	top:auto;
+	right:auto;
+	bottom:auto;
+	display:block;
+	-webkit-box-sizing: content-box;
+	width:auto; 
+	height:auto;
+	text-shadow:none;
+	outline:none;
+	clear:none;
+	content:normal;
+	cursor:auto;
+	letter-spacing:normal;
+	z-index:auto;
+	text-align:left;
+	font-family:Arial, Helvetica, Sans-serif;
+	float:none;
+} 
+
+body  {
+	width: 800px;
+	font-family: sans-serif;
+	overflow: hidden;
+	margin: 0;
+}
+
+
+/*helpers*/
+.gta_downloader_clearfix:before,.gta_downloader_clearfix:after {
+	content:""; 
+	display:table;
+}
+.gta_downloader_clearfix:after {
+	clear:both;
+}
+.gta_downloader_clearfix {
+	*zoom:1;
+}
+
+.gta_downloader_non_animated {
+-webkit-transition: none !important;  /* Chrome 1-25, Safari 3.2+ */
+   -moz-transition: none !important;  /* Firefox 4-15 */
+     -o-transition: none !important;  /* Opera 10.50–12.00 */
+        transition: none !important;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+.gta_downloader_noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.gta_downloader_flexbox {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex: 1 1 0;
+	-moz-flex: 1 1 0;
+	-ms-flex: 1 1 0;
+	flex: 1 1 0;
+};
+.gta_downloader_flexbox_row {
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+.gta_downloader_flexbox_column {
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.gta_downloader_border_box {box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;} 
+
+/*icons*/
+.gta_downloader_icon_logo_settings {background:url(/images/popup/logo_settings.png) no-repeat 0px 0px;}
+
+.gta_downloader_icon_ic_hide_white {background:url(/images/popup/ic_hide_white.svg) no-repeat 0px 0px;}
+.gta_downloader_icon_ic_hide {background:url(/images/popup/ic_hide.svg) no-repeat 0px 0px;}
+
+.gta_downloader_icon_logo_capture {background:url(/images/popup/logo_capture.png) no-repeat 0px 0px;}
+.gta_downloader_icon_logo_nimbus {background:url(/images/popup/logo_nimbus.svg) no-repeat 0px 0px;}
+.gta_downloader_icon_googleplay_icon {background:url(/images/popup/googleplay_icon.svg) no-repeat 0px 0px;}
+.gta_downloader_icon_3dspeeddial_icon {background:url(/images/popup/3dspeeddial_icon.svg) no-repeat 0px 0px;}
+.gta_downloader_icon_feedback_icon {background:url(/images/popup/feedback_icon.svg) no-repeat 0px 0px;}
+.gta_downloader_icon_wallpapers_icon {background:url(/images/popup/wallpapers_icon.png) no-repeat 0px 0px;}
+.gta_downloader_icon_help_icon {background:url(/images/popup/help_icon.svg) no-repeat 0px 0px;}
+.gta_downloader_icon_logo_safe {background:url(/images/popup/logo_safe.png) no-repeat 0px 0px;}
+
+.gta_downloader_icon_ic_main_link {background:url(/images/popup/ic_main_link.svg) no-repeat 0px 0px;}
+.gta_downloader_icon_ic_main_images {background:url(/images/popup/ic_main_images.svg) no-repeat 0px 0px;}
+.gta_downloader_icon_ic_main_files {background:url(/images/popup/ic_main_files.svg) no-repeat 0px 0px;}
+.gta_downloader_icon_ic_main_video {background:url(/images/popup/ic_main_video.svg) no-repeat 0px 0px;}
+.gta_downloader_icon_ic_options_16 {background:url(/images/popup/ic_options_16.svg) no-repeat 0px 0px;}
+
+.gta_downloader_icon_ic_list_3gp {background:url(/images/popup/list/ic_list_3gp.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_7z {background:url(/images/popup/list/ic_list_7z.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_avi {background:url(/images/popup/list/ic_list_avi.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_bmp {background:url(/images/popup/list/ic_list_bmp.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_bz2 {background:url(/images/popup/list/ic_list_bz2.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_css {background:url(/images/popup/list/ic_list_css.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_dmg {background:url(/images/popup/list/ic_list_dmg.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_doc {background:url(/images/popup/list/ic_list_doc.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_exe {background:url(/images/popup/list/ic_list_exe.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_filemisc {background:url(/images/popup/list/ic_list_filemisc.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_flv {background:url(/images/popup/list/ic_list_flv.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_gif {background:url(/images/popup/list/ic_list_gif.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_html {background:url(/images/popup/list/ic_list_html.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_ico {background:url(/images/popup/list/ic_list_ico.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_jar {background:url(/images/popup/list/ic_list_jar.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_jpg {background:url(/images/popup/list/ic_list_jpg.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_js {background:url(/images/popup/list/ic_list_js.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_link {background:url(/images/popup/list/ic_list_link.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_mov {background:url(/images/popup/list/ic_list_mov.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_mp3 {background:url(/images/popup/list/ic_list_mp3.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_mp4 {background:url(/images/popup/list/ic_list_mp4.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_msi {background:url(/images/popup/list/ic_list_msi.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_pdf {background:url(/images/popup/list/ic_list_pdf.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_png {background:url(/images/popup/list/ic_list_png.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_rar {background:url(/images/popup/list/ic_list_rar.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_svg {background:url(/images/popup/list/ic_list_svg.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_tar {background:url(/images/popup/list/ic_list_tar.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_txt {background:url(/images/popup/list/ic_list_txt.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_video {background:url(/images/popup/list/ic_list_video.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_waw {background:url(/images/popup/list/ic_list_waw.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_webm {background:url(/images/popup/list/ic_list_webm.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_xls {background:url(/images/popup/list/ic_list_xls.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_zip {background:url(/images/popup/list/ic_list_zip.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_ppt {background:url(/images/popup/list/ic_list_ppt.png) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_other {background:url(/images/popup/list/ic_list_other.png) no-repeat 0px 0px;} 
+
+.gta_downloader_icon_ic_list_swf {background:url(/images/popup/list/ic_list_video.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_file {background:url(/images/popup/list/ic_list_filemisc.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_xpi {background:url(/images/popup/list/ic_list_filemisc.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_crx {background:url(/images/popup/list/ic_list_filemisc.svg) no-repeat 0px 0px;} 
+.gta_downloader_icon_ic_list_oex {background:url(/images/popup/list/ic_list_filemisc.svg) no-repeat 0px 0px;} 
+
+
+/*checkbox*/
+.gta_downloader_check {display:inline-block; position:relative; padding:0 0 0 24px; cursor:pointer; min-height:16px; min-width:16px; cursor:pointer; font-size: 12px; color: rgba(21, 21, 21, 0.7); line-height:16px;}
+.gta_downloader_check * {cursor:pointer;}
+.gta_downloader_check input.gta_downloader_check_element {display:block; position:absolute; top:50%; left:0; width:16px; height:16px; opacity:0; background:none; border:0; visibility:hidden; margin:-8px 0 0 0; z-index:2;}
+.gta_downloader_check input.gta_downloader_check_element + .gta_downloader_check_block {display:block; position:absolute; left:0; top:50%; width:14px; height:14px; border:1px solid #b2b2b2; margin:-8px 0 0 0; border-radius:1px; background:#fff;}
+.gta_downloader_check input.gta_downloader_check_element + .gta_downloader_check_block i {display:block; position:absolute; left:50%; top:50%; width:10px; height:10px; margin:-5px 0 0 -5px;}
+
+.gta_downloader_check input.gta_downloader_check_element:checked + .gta_downloader_check_block i {
+	background:#4acc4f;
+}
+.gta_downloader_check input.gta_downloader_check_element[disabled] + .gta_downloader_check_block i {
+	background:#c5c5c5;
+}
+
+.info_icon .gta_downloader_check {
+	padding:0 0 0 24px; 
+	cursor:pointer; 
+	min-height:16px; 
+	min-width:16px; 
+	display:block; 
+	position:absolute; 
+	top: 10px; 
+	left: 10px; 
+	z-index:2;
+}
+
+
+/*form elements*/
+.gta_downloader_input_text {display:inline-block; background:#fff; border-radius:1px; border:1px solid #b2b2b2; height:20px; padding:0 5px;}
+
+/*button*/
+.gta_downloader_button::-moz-focus-inner {
+	padding:0; 
+	margin:0;
+}
+.gta_downloader_button {
+	display:inline-block; 
+	position:relative; 
+	background:#4acc4f; 
+	border:1px solid #4acc4f; 
+	border-radius:13px; 
+	padding:6px 18px; 
+	color:#fff; 
+	font-size:12px; 
+	cursor:pointer;
+}
+.gta_downloader_button:disabled {
+	opacity: 0.3;	
+}	
+
+.gta_downloader_button:hover {
+	background: #42b846;
+}
+.gta_downloader_button_big {
+	padding:12px 32px; 
+	border-radius:23px; 
+	cursor:pointer;
+}
+.gta_downloader_button_big	.total_count {
+	float: right;
+	min-height: 0;
+	margin-left: 5px;
+	color: white;
+}
+.gta_downloader_button_big	.title_button {
+	float: left;
+	color: #fff;
+    font-size: 15px;	
+	font-weight:bold; 
+	cursor:pointer;
+}
+
+
+.gta_downloader_button_white {background: #f7f7f7; border-color:#e6e6e6; color: #3e7db5;} 
+.gta_downloader_button_white:hover {background: #e3e3e3;}
+
+/*links menu*/
+.gta_downloader_links_menu {}
+.gta_downloader_links_menu_item {float:left; padding:0 10px 0 0;}
+.gta_downloader_links_menu_item_last {padding:0;}
+.gta_downloader_links_menu_item a {display:block; position:relative; text-decoration:none; padding:0 0 0 22px; cursor:pointer; line-height:16px; color: rgba(21, 21, 21, 0.7); font-size:12px;}
+.gta_downloader_links_menu_item a i {display:block; position:absolute; left:0; top:0; width:16px; height:16px;}
+.gta_downloader_links_menu_item a:hover {color:#000;}
+
+/*window*/
+.gta_downloader_window  {
+	width:800px; 
+	margin:0 auto; 
+	position:relative; 
+	padding:0;
+}
+.gta_downloader_window_wrapper {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+	border-radius:8px; 
+	background-color: #f7f7f7;
+	height: 600px;
+	position:relative; 
+}
+.gta_downloader_container {
+	height: 100%;	
+}	
+.gta_downloader_show_container {
+	position:relative; 
+	height: calc(100% - 266px);	
+	overflow:hidden;
+}	
+.gta_downloader_perfect_container {
+	position: absolute;
+	left: 0;
+	top: 0;
+}	
+
+.gta_downloader_header {
+	border-bottom:1px solid #e6e6e6;
+}
+.gta_downloader_header_wrapper {
+	padding:5px 15px;
+}
+
+.gta_downloader_footer_container {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width:100%;
+	height: auto;
+	height: 160px;
+}	
+.gta_downloader_filter {
+	background:#f7f7f7; 
+	width:100%;
+	height: 70px;
+}
+.gta_downloader_footer  {
+	padding:15px;
+	height: 60px;
+}
+.gta_downloader_scroll_horizontal {
+	width: 100%;
+	height: 5px;
+    background-color: #eee;
+    position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 12;
+}	
+.gta_downloader_scroll_horizontal .ps-scrollbar-x {
+    position: absolute;
+    background-color: #aaa;
+    border-radius: 4px;
+    transition: background-color 0.2s linear;
+    height: 5px;
+}	
+.gta_downloader_scroll_vertical {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 5px;
+	height: 100%;	
+    background-color: #eee;
+	z-index: 12;
+}	
+.gta_downloader_scroll_vertical .ps-scrollbar-y {
+    position: absolute;
+    background-color: #aaa;
+    border-radius: 4px;
+    transition: background-color 0.2s linear;
+    width: 5px;
+}
+.gta_downloader_scroll_vertical:hover {
+    width: 8px;
+}
+.gta_downloader_scroll_vertical:hover .ps-scrollbar-y {
+    width: 8px;
+}
+
+.gta_downloader_top  {
+	background:#3e7db5; 
+	border-radius:8px 8px 0 0; 
+	padding:16px 26px 10px 26px; 
+	position:relative;
+}
+.gta_downloader_top_triangle  {
+	content:""; 
+	border:6px solid transparent; 
+	border-bottom:9px solid #3e7db5; 
+	border-top:none; 
+	display:block; 
+	position:absolute; 
+	height:0; 
+	top:-8px; 
+	right:7px;
+}
+
+.gta_downloader_tabs {
+	overflow:hidden;
+}
+.gta_downloader_tabs_wrapper {
+
+}
+.gta_downloader_tab {
+	padding:0; 
+	float:left;
+}
+#tab_links {
+	width: 20%;
+}
+#tab_images {
+	width: 20%;
+}
+#tab_docs {
+	width: 30%;
+}
+#tab_videos {
+	width: 25%;
+}
+.gta_downloader_tabs_holder {
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+}
+.gta_downloader_tab_holder {
+	position:relative; 
+	padding:0 0 8px 40px; 
+	cursor:pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+.gta_downloader_tab_holder * {
+	cursor:pointer;
+}
+.gta_downloader_tab_icon {
+	position:absolute; 
+	left:0; 
+	top:2px; 
+	width:30px; 
+	height:30px; 
+	background-size:100% 100% !important;
+}
+.gta_downloader_tab_bord {
+	position:absolute; 
+	left:0; 
+	bottom:0; 
+	border-radius:2px; 
+	width:100%; 
+	height:3px;
+}
+.gta_downloader_tab_active .gta_downloader_tab_bord {
+	background:#8fd5f7;
+}
+.gta_downloader_tab_name {
+	padding:0 0 5px 0; 
+	line-height:1; 
+	font-size:0px;
+}
+.gta_downloader_tab_name_text {
+	display:inline-block; 
+	vertical-align:middle; 
+	line-height:1; 
+	font-size:16px; 
+	color:#fff; 
+	padding:0 7px 0 0;
+}
+.gta_downloader_tab_count {
+	display:inline-block; 
+	vertical-align:middle; 
+	color:#fff; 
+	border-radius:10px; 
+	height:16px; 
+	padding:0 4px; 
+	min-width:8px; 
+	line-height:16px; 
+	font-size:12px; 
+	color:#fff; 
+	background: #4acc4f;
+}
+.gta_downloader_tab_desc {
+	line-height:1; 
+	font-size:12px; 
+	color:#fff;
+}
+.gta_downloader_tab_desc .count {
+	display: inline-block;
+	font-weight: bold;
+	line-height: 1;
+    font-size: 12px;
+    color: #07F350;	
+}
+.gta_downloader_tab_desc .label {
+	display: inline-block;
+	font-weight: normal;
+	line-height: 1;
+    font-size: 12px;
+    color: #fff;	
+}
+.gta_downloader_name, .gta_downloader_desc, .gta_downloader_size, .gta_downloader_url, .gta_downloader_icon {
+	box-sizing:border-box; 
+	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	float:left; 
+	position:relative;
+}
+.gta_downloader_name  {
+	width:50%;
+}
+.gta_downloader_clear  {
+}
+.gta_downloader_desc {
+	width:25%;
+}
+.gta_downloader_size {
+	width:calc(25% - 90px);
+}
+.gta_downloader_icon {
+	width:26px;
+}
+#head_clear_all {
+	float: right;
+}
+#head_all_sel {
+	width: 150px;
+}
+#head_url {
+	width: 100px;
+	cursor: pointer;
+}
+#head_descr {
+	width: 80px;
+	cursor: pointer;
+}
+#head_size {
+	width: 50px;
+	cursor: pointer;
+}
+.gta_downloader_clear_all {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.gta_downloader_clear_all span.gta_downloader_clear_all_title {
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    line-height: 1;
+    padding: 7px 14px;
+    font-size: 12px;
+    color: #8cb0d0;
+    background: #f7f7f7;	
+	cursor: pointer;
+}	
+
+.gta_downloader_select_all {
+	display:inline-block; 
+	position:relative; 
+	cursor:pointer;
+}
+.gta_downloader_select_all * {
+	cursor:pointer;
+}
+.gta_downloader_select_all input {
+	display:block; 
+	position:absolute; 
+	left:0; 
+	top:0; 
+	opacity:0; 
+	visibility:hidden; 
+	z-index:2;
+}
+.gta_downloader_select_all span {
+	display:block; 
+	border: 1px solid #4acc4f; 
+	border-radius: 13px; 
+	line-height:1; 
+	padding:7px 14px; 
+	font-size:12px; 
+	color: #4acc4f; 
+	background:#fff;
+}
+.gta_downloader_select_all input:checked + span {
+	background:#4acc4f; 
+	color:#fff;
+}
+#head_all_sel[check="1"] .gta_downloader_select_all span  {
+	background:#4acc4f; 
+	color:#fff;
+}
+
+.gta_downloader_header .gta_downloader_desc, .gta_downloader_header .gta_downloader_size, .gta_downloader_header .gta_downloader_url {
+	padding:8px 0; 
+	color: rgba(21, 21, 21, 0.92); 
+	font-size:12px; 
+	line-height:1;
+}
+
+.gta_downloader_list  {
+	height:100%; 
+	position:relative; 
+	border-bottom:1px solid #e6e6e6;
+}
+/* .gta_downloader_list_content  {
+	height:100%; 
+} */
+.gta_downloader_list_content_wrapper {width:800px;}
+.gta_downloader_item {border-bottom:1px solid #e6e6e6; background:#fff; padding:5px 12px;}
+.gta_downloader_item:last-child {border-bottom:0;}
+.gta_downloader_item:hover {background:rgba(74, 204, 79, 0.06)}
+
+.gta_downloader_item .gta_downloader_name, 
+.gta_downloader_item .gta_downloader_desc, 
+.gta_downloader_item .gta_downloader_size, 
+.gta_downloader_item .gta_downloader_url {
+	padding:13px 15px; 
+	white-space:nowrap; 
+	overflow:hidden; 
+	text-overflow:ellipsis;
+	font-size:14px; 
+	color: rgba(0, 0, 0, 0.6); 
+	line-height:1; 
+	padding-left:0;
+}
+.gta_downloader_item .gta_downloader_icon  {
+	margin-top: 5px;
+	width:80px;
+	height: 24px;
+	cursor: pointer;
+}
+.download_item[status="start"] .gta_downloader_size { 
+	color: red; 
+}
+
+
+/*.gta_downloader_item .gta_downloader_icon.download-start-icon  {
+	background:url(/images/popup/download.png) no-repeat 0px 0px; 
+}
+.gta_downloader_item .gta_downloader_icon.download-stop-icon  {
+	background:url(/images/popup/download_stop.png) no-repeat 0px 0px; 
+}
+.gta_downloader_item .gta_downloader_icon.stream-start-icon  {
+	background:url(/images/popup/stream_start.png) no-repeat 0px 0px; 
+}
+.gta_downloader_item .gta_downloader_icon.stream-stop-icon  {
+	background:url(/images/popup/stream_stop.png) no-repeat 0px 0px; 
+}*/
+.gta_downloader_item .download_button {
+	display: inline-block;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;	
+	font-size: 10px;
+	font-weight: bold;
+	background: -webkit-linear-gradient(90deg, #4da5d8, #58d2fd);
+	position: relative;
+	margin-left: 5px;
+	width: 60px;
+	text-align:center;
+	cursor: pointer;
+}
+.gta_downloader_item .download_button .text {
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.gta_downloader_item .download_button .loading{
+	display: none;
+	width: 100%;
+	background: url(/images/loading_16x16.gif) no-repeat;
+	background-position: center center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+}
+
+.gta_downloader_item .download_button[loading="1"] .loading{
+	display: block;
+}
+
+.gta_downloader_item .download_button[loading="1"] .text{
+	visibility: hidden;
+}
+
+.gta_downloader_item .download_button[loading="1"]  .size{
+	display: none;	
+}
+
+.gta_downloader_item .download_button:hover{
+	-webkit-box-shadow: 0px 0px 10px 0px #000;
+}
+
+
+.gta_downloader_item .gta_downloader_name {
+	padding-left:86px;
+}
+.gta_downloader_item .gta_downloader_name .gta_downloader_check {
+	padding:0; 
+	position:absolute; 
+	left:15px; 
+	top:50%; 
+	margin:-8px 0 0 0;
+}
+.gta_downloader_type {
+	position:absolute; 
+	left:45px; 
+	width:24px; 
+	height:24px; 
+	top:50%; 
+	margin:-12px 0 0 0; 
+	text-indent:-9999px;
+}
+.gta_downloader_text_load {
+	position:absolute; 
+	left:45px; 
+	width:24px; 
+	height:24px; 
+	top:50%; 
+	margin:-12px 0 0 0; 
+	text-indent:-9999px;
+	background:url(/images/popup/load_file.png) no-repeat 0px 0px; 
+	opacity:0;
+}
+.gta_downloader_text_zip {
+	position:absolute; 
+	left:45px; 
+	width:24px; 
+	height:24px; 
+	top:50%; 
+	margin:-12px 0 0 0; 
+	text-indent:-9999px;
+	background:url(/images/popup/archive_file.png) no-repeat 0px 0px; 
+	opacity:0;
+}
+.download_item[zip="1"] .gta_downloader_text_load {
+	opacity:1;
+}
+.download_item[stream] .gta_downloader_text_load {
+	opacity:1;
+}
+.download_item[zip="2"] .gta_downloader_text_zip {
+	opacity:2;
+}
+.gta_downloader_text_count {
+	position:absolute; 
+	top: 0px;
+	left:45px; 
+	width:16px; 
+	height:12px; 
+	background: red; 
+	border-radius: 10px;	
+    color: white;
+    padding: 3px;
+    font-size: 9px;	
+	opacity:0;
+}
+.download_item[stream] .gta_downloader_text_count {
+	opacity:1;
+}
+
+.gta_downloader_name_title {
+	font-size:14px; 
+	white-space:nowrap; 
+	overflow:hidden; 
+	text-overflow:ellipsis;
+}
+.gta_downloader_name_title a {
+	display:block; 
+	text-decoration:none; 
+	color: #3e7db5; 
+	cursor:pointer; 
+	white-space:nowrap; 
+	overflow:hidden; 
+	text-overflow:ellipsis; 
+	font-size:14px;
+}
+.download_item[zip="1"] .gta_downloader_name_title a {
+	color: #128412; 
+}
+.download_item[zip="2"] .gta_downloader_name_title a {
+	color: #1E581E
+}
+
+.show_filter  {
+	padding:0 0 15px 0;
+	float: left;
+}
+.show_mask  {
+    width: 220px;
+    margin-left: 170px;	
+}
+.gta_downloader_mask_text {
+    margin-top: 5px;
+	margin-right: 5px;
+    color: rgba(21, 21, 21, 0.7);
+    font-size: 12px;	
+	float:left;
+}
+.gta_downloader_input_mask_text {
+	display: inline-block;
+    background: #fff;
+    border-radius: 1px;
+    border: 1px solid #b2b2b2;
+    height: 20px;
+    padding: 0 5px;
+	width: 80px;
+}	
+
+.gta_downloader_footer_wrapper  {
+	position:relative; 
+	padding:0;
+}
+.gta_downloader_submit   {
+	position:absolute; 
+	right:0; 
+	top:-10px;
+}
+.gta_downloader_zip   {
+	position:absolute; 
+	right:250px; 
+	top:10px;
+}
+.gta_downloader_savelink   {
+	position:absolute; 
+	right:200px; 
+	top:0px;
+}
+.gta_downloader_savelink   .title_button {
+	cursor: pointer;
+}
+
+.gta_downloader_filter_wrapper {position:relative; padding:15px 45px;}
+.gta_downloader_filter_close {position:absolute; right:15px; top:50%; width:16px; height:16px; cursor:pointer; margin:-8px 0 0 0;}
+.gta_downloader_filter_block {position:relative; padding:0 0 0 45px;}
+.gta_downloader_filter_title {position:absolute; line-height:16px; font-size:12px; color: #151515; left:0; top:0;}
+.gta_downloader_filter_content  {
+	margin:0 0 -15px 0;
+	display:none;
+}
+.gta_downloader_filter_set {overflow:hidden;}
+.gta_downloader_filter_set_content {font-size:0px;}
+.gta_downloader_filter_set .gta_downloader_filter_item {padding:0 15px 15px 0; display:inline-block; vertical-align:middle; color: rgba(21, 21, 21, 0.7); font-size:12px;} 
+.gta_downloader_filter_set .gta_downloader_check {display:block;}
+
+.gta_downloader_filter_set .gta_downloader_input_label {
+	float: left;
+	margin-top:  3px;
+}	
+.gta_downloader_filter_set .gta_downloader_input_text {
+	width:45px; 
+	margin:0 0 0 5px;
+}
+
+.gta_downloader_tab_settings {
+	position:absolute; 
+	right: 20px; 
+	top: 18px; 
+	width:60px;
+}
+.gta_downloader_tab_settings a {
+	display:block; 
+	position:relative; 
+	text-align:center; 
+	color:#fff; 
+	text-decoration:none; 
+	line-height:1; 
+	font-size:12px; 
+	padding:21px 0 0 0; 
+	cursor:pointer;
+}
+.gta_downloader_tab_settings a * {
+	cursor:pointer;
+}
+.gta_downloader_tab_settings_icon {
+	top:0; 
+	left:50%; 
+	width:16px; 
+	height:16px; 
+	margin:0 0 0 -8px; 
+	position:absolute;
+}
+.gta_downloader_tab_settings_title {
+	color: white;
+	text-align: center;
+}
+
+div#download_item_template {
+	display: none;
+}
+
+
+/* GTA Suggestion */
+#GtaSuggestionMessage{
+	padding: 3px;
+	border: 2px solid transparent;
+	position: relative;
+	font-size: 13px;
+	height: 24px;
+	width: 750px;
+}
+
+#GtaSuggestionMessage:hover{
+	border-color: #555;
+	border-radius: 5px;
+	cursor:pointer;
+}
+
+#GtaSuggestionMessage .text{
+	padding-right: 30px;
+	float:left;
+	margin-left: 30px;
+	margin-top:3px;
+	font-weight: bold;
+}
+#GtaSuggestionMessage .rate_star{
+	margin-right:-2px;
+	margin-top:3px;
+	display: inline-block;
+}
+
+#GtaSuggestionMessage .button {
+	display: inline-block;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 10px;
+	font-weight: bold;
+	background: -webkit-linear-gradient(90deg, #4da5d8, #58d2fd);
+	position: relative;
+	margin-left: 5px;
+	width: 100px;
+	float: right;
+}
+#GtaSuggestionMessage .button .text {
+	padding-right: 5px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top:0px;
+}
+
+/* ------------------------ Sort -------------------- */
+#sort_url {
+	float:left;
+	width:  16px;
+	height: 16px;
+	padding: 3px;
+	margin-right: 110px;
+}
+#sort_url[sort=none] {
+}
+#sort_url[sort=asc] {
+	background: url(/images/popup/sort-ascending.png) no-repeat;
+}
+#sort_url[sort=desc] {
+	background: url(/images/popup/sort-descending.png) no-repeat;
+}
+#sort_descr {
+	float:left;
+	width:  16px;
+	height: 16px;
+	padding: 3px;
+	margin-right: 70px;
+}
+#sort_descr[sort=none] {
+}
+#sort_descr[sort=asc] {
+	background: url(/images/popup/sort-ascending.png) no-repeat;
+}
+#sort_descr[sort=desc] {
+	background: url(/images/popup/sort-descending.png) no-repeat;
+}
+#sort_size {
+	float:left;
+	width:  16px;
+	height: 16px;
+	padding: 3px;
+}
+#sort_size[sort=none] {
+}
+#sort_size[sort=asc] {
+	background: url(/images/popup/sort-ascending.png) no-repeat;
+}
+#sort_size[sort=desc] {
+	background: url(/images/popup/sort-descending.png) no-repeat;
+}
+
+/* ------------------  icon  ------------------------*/
+#download_icon  {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	clear: both;
+	width: 760px;
+	height: 420px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin-left: 7px;
+	margin-top: 7px;
+	display: none;
+	border: 1px solid #ccc;
+}
+
+#download_icon_template {
+	display: none;
+}
+
+div.download_icon {
+	height: 175px;
+	width: 180px;
+	display: block; 
+	float: left;
+	overflow: hidden;
+	cursor: default;
+	border: 1px solid #f3f3f3;
+}
+
+div.download_icon .info_icon{
+	display: table-cell;
+	height: 121px;
+	width: 166px;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	padding: 16 7 24 7;
+	}
+	
+div.download_icon  .info_img{
+	max-width: 160px;
+	max-height: 120px;
+	cursor: pointer;
+}
+
+div.download_icon .info_sel
+{
+	position: absolute;
+	left:0px;
+	top: 0px;
+	width: 16px;
+	height: 16px;
+	cursor:pointer; 	
+}
+div.download_icon .info_sel[check="0"]
+{
+	background: url(icons/checks16.png);
+	background-position: -16px -32px;
+}
+div.download_icon .info_sel[check="1"]
+{
+	background: url(icons/checks16.png);
+	background-position: -0px -16px;
+}
+div.download_icon .info_sel[check="5"]
+{
+	background: url(icons/checks16.png);
+	background-position: -32px -48px;
+}
+
+div.download_icon .info_size
+{
+	position: absolute;
+	left:0px;
+	top: 145px;
+	width: 70px;
+	height: 24px;
+	font-family: Arial,Helvetica,SunSans-Regular,Sans-Serif; 
+	font-size: 12px;  
+	text-align: center;
+}
+
+div.download_icon .info_size[loading="1"]
+{
+	background: url( /images/small_loading.gif ) no-repeat;
+	background-position: center center;
+}
+
+
+#image-tooltip {
+	position: absolute;
+	overflow: hidden;
+	font-size: 0;
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,1);
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,1);
+	-webkit-transition: 0s; 
+	transition: 0s; 
+	padding: 5px;   	
+	box-shadow: 0px 0px 10px rgba(0,0,0,1);
+	opacity: 0; 
+	display: none;
+	min-height: 50px;
+	min-width: 50px;
+	max-width: 500px;
+	max-height: 250px;
+	background-color:white;
+	z-index: 99999;		
+	}
+	
+#image-tooltip #rg3fbpz-title {
+	background: white;
+}	
+
+#image-tooltip #rg3fbpz-title[loading="1"]  {
+	background: url(/images/loading_16x16.gif)  no-repeat center center;
+}	
+#content-tooltip {
+	position: absolute;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,1);
+	box-shadow: 0px 0px 10px rgba(0,0,0,1);
+	height: 50px;
+	width: 100px;
+	background-color:white;
+	z-index: 99999;		
+	opacity: 0; 
+	-webkit-transition: 0s; 
+	transition: 0s; 
+}
+
+#content-tooltip .content-label {
+	height: 17px;
+	width: 90px;
+	padding: 5px;  	
+	font-family: Arial,Helvetica,SunSans-Regular,Sans-Serif; 
+	font-size: 12px;  
+	cursor: pointer;
+}
+#content-tooltip .content-label:hover {
+	background-color: rgb(241,241,241);
+}
+
+.gta_downloader_message_noyoutube  {
+	height:520px; 
+	position:relative; 
+	border-bottom:1px solid #e6e6e6;
+}
+.gta_downloader_message_noyoutube  .message_body {
+	position: relative;
+	width: 770px;
+	height: 400px;
+}
+.gta_downloader_message_noyoutube .message  {
+	position: absolute;
+    top: 150px;
+    left: 170px;
+    text-align: center;
+}
+.gta_downloader_message_noyoutube .message  span {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 11pt;
+    line-height: 2.0;
+}
+.gta_downloader_message_reload  {
+	display: none;
+	position: absolute;
+    top: 0;
+    left: 0;
+	border-bottom:1px solid #e6e6e6;
+}
+.gta_downloader_message_reload  .message_body {
+	position: relative;
+}
+.gta_downloader_message_reload .message  {
+	position: absolute;
+    top: 220px;
+    left: 250px;
+	width: 300px;
+    text-align: center;
+}
+.gta_downloader_message_reload .message  span {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 11pt;
+    line-height: 2.0;
+}
+
+/* ---------------------------    #downloadBox   ---------- */
+#downloadBox  {
+	width: 775px;
+	height: 580px;
+	position: relative;
+	border: 1px solid #ccc;
+	display: none;
+}
+#downloadBox  .downloadBox_body {
+	position: relative;
+	width: 775px;
+	height: 580px;
+}
+#downloadBox .downloadBox_body .downloadBox_message {
+	width: 770px;
+	margin-top: 5px;
+}
+#downloadBox .downloadBox_body .downloadBox_message span {
+	color: black;
+	font-family: Arial,Helvetica,SunSans-Regular,Sans-Serif; 
+	font-size: 12pt;  
+	font-weight:bold;
+	text-align: center;
+}
+#downloadBox .downloadBox_body .downloadBox_text1 {
+	position: absolute;
+	top: 70px;
+	left: 20px;
+	width: 750px;
+	color: black;
+	font-family: Arial,Helvetica,SunSans-Regular,Sans-Serif; 
+	font-size: 11pt;  
+	font-weight:bold;
+	text-align: left;
+}
+#downloadBox .downloadBox_body .downloadBox_img1 {
+	position: absolute;
+	top: 105px;
+	left: 120px;
+}
+#downloadBox .downloadBox_body .downloadBox_img1 img {
+	width: 500px;
+}
+#downloadBox .downloadBox_body .downloadBox_text2  {
+	position: absolute;
+	top: 240px;
+	left: 20px;
+	width: 750px;
+	color: black;
+	font-family: Arial,Helvetica,SunSans-Regular,Sans-Serif; 
+	font-size: 11pt;  
+	font-weight:bold;
+	text-align: left;
+}
+#downloadBox .downloadBox_body .downloadBox_img2  {
+	position: absolute;
+	top: 270px;
+	left: 180px;
+}
+#downloadBox .downloadBox_body .downloadBox_img2 img  {
+	width: 400px;
+}
+#downloadBox .downloadBox_body .downloadBox_checkbox  {
+	position: absolute;
+	bottom: 15px;
+	left: 20px;
+	width: 330px;
+}
+#downloadBox .downloadBox_body .downloadBox_checkbox input  {
+	float: left;
+}
+#downloadBox .downloadBox_body .downloadBox_checkbox span  {
+	margin-left: 20px;
+	margin-top: -5px;
+	cursor: pointer;
+	color: #606060;
+	font: 1.00em/1.4 Helvetica, Arial, Verdana, sans-serif;
+	border: 1px solid #ccc;
+	font-weight:bold;
+	padding: 3px;
+}
+#downloadBox_Button {
+	position: absolute;
+	bottom: 25px;
+	right: 5px;
+	text-align: center;
+	cursor: pointer;
+	padding-top: 2px;
+}
+
+

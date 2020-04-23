@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>googleplay_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="19.2147947%" y1="-35.1571758%" x2="69.3023416%" y2="93.5367562%" id="linearGradient-1">
+            <stop stop-color="#19A3B4" offset="0%"></stop>
+            <stop stop-color="#5BC3AF" offset="34.816763%"></stop>
+            <stop stop-color="#C9F7A6" offset="92.2336229%"></stop>
+            <stop stop-color="#D7FEA5" offset="100%"></stop>
+        </linearGradient>
+        <path id="path-2" d="M12.1029273,5.1830585 L2.22832413,0.15498178 C1.94833468,0.0131224721 1.69009647,-0.0198780315 1.48091427,0.040551462 L9.56913847,7.52995146 L12.1029273,5.1830585"></path>
+        <linearGradient x1="-14.698314%" y1="-114.321644%" x2="74.8444046%" y2="114.156353%" id="linearGradient-4">
+            <stop stop-color="#FC227C" offset="0%"></stop>
+            <stop stop-color="#FEEB7B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="28.1511582%" y1="-14.8137139%" x2="48.1878808%" y2="82.8944571%" id="linearGradient-5">
+            <stop stop-color="#0E4DA0" offset="0%"></stop>
+            <stop stop-color="#6BFED4" offset="100%"></stop>
+        </linearGradient>
+        <path id="path-6" d="M1.48045148,0.040551462 C1.18009916,0.12755279 0.985726314,0.409128515 0.985726314,0.835135015 L0.987577484,14.2427682 C0.987577484,14.6640603 1.17593402,14.9413503 1.46749329,15.0339231 L9.56913847,7.53123719 L1.48045148,0.040551462"></path>
+        <linearGradient x1="132.244588%" y1="16.465744%" x2="5.95853392%" y2="126.310354%" id="linearGradient-8">
+            <stop stop-color="#FC472E" offset="0%"></stop>
+            <stop stop-color="#FC472E" offset="0.331892433%"></stop>
+            <stop stop-color="#893CD8" offset="100%"></stop>
+        </linearGradient>
+        <path id="path-9" d="M1.46749329,15.0339231 C1.67806387,15.0999241 1.94139279,15.0690665 2.22832413,14.92335 L12.1144971,9.88841601 L9.56913847,7.53123719 L1.46749329,15.0339231"></path>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="assets" sketch:type="MSArtboardGroup" transform="translate(-59.000000, -115.000000)">
+            <g id="googleplay_icon" sketch:type="MSLayerGroup" transform="translate(59.000000, 115.000000)">
+                <g id="Google-Play-Icon-+-bounds">
+                    <g id="Google-Play-Icon">
+                        <mask id="mask-3" sketch:name="Fill 1" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Fill-1" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                        <path d="M12.1158855,9.88841601 L15.4868659,8.17196125 C16.1704104,7.82267021 16.1704104,7.25437582 15.4868659,6.90594193 L12.1033901,5.1830585 L9.56913847,7.52995146 L12.1158855,9.88841601" id="Fill-2" fill="url(#linearGradient-4)" sketch:type="MSShapeGroup"></path>
+                        <mask id="mask-7" sketch:name="Fill 3" fill="white">
+                            <use xlink:href="#path-6"></use>
+                        </mask>
+                        <use id="Fill-3" fill="url(#linearGradient-5)" sketch:type="MSShapeGroup" xlink:href="#path-6"></use>
+                        <mask id="mask-10" sketch:name="Fill 4" fill="white">
+                            <use xlink:href="#path-9"></use>
+                        </mask>
+                        <use id="Fill-4" fill="url(#linearGradient-8)" sketch:type="MSShapeGroup" xlink:href="#path-9"></use>
+                    </g>
+                    <rect id="bounds" sketch:type="MSShapeGroup" x="0" y="0" width="16" height="16"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

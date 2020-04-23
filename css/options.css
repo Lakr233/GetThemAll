@@ -1,0 +1,510 @@
+
+#mainContainer{
+	position: relative;
+	width: 620px;
+	height: 410px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 10px -3px #000;
+}
+
+#mainContainer .block{
+	font-family: Arial;
+	font-size: 14px;
+	color: #fff;
+}
+
+/*helpers*/
+.gta_downloader_clearfix:before,
+.gta_downloader_clearfix:after {content:""; display:table;}
+.gta_downloader_clearfix:after {clear:both;}
+.gta_downloader_clearfix {*zoom:1;}
+
+.gta_downloader_noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/*icons*/
+.gta_downloader_icon_logo_settings {
+	background: url( /images/options/logo_settings.png ) no-repeat 0px 0px;
+}
+
+.gta_downloader_icon_ic_hide_white {
+	background:url(/images/options/ic_hide_white.svg) no-repeat 0px 0px;
+}
+.gta_downloader_icon_ic_hide  {
+	background:url(/images/options/ic_hide.svg) no-repeat 0px 0px;
+}
+
+
+/*checkbox*/
+.gta_downloader_check   {
+	display:inline-block; 
+	position:relative; 
+	padding:0 0 0 24px; 
+	cursor:pointer; 
+	min-height:16px; 
+	min-width:16px; 
+	cursor:pointer; 
+	font-size: 12px; 
+	color: rgba(21, 21, 21, 0.7); 
+	line-height:16px;
+}
+.gta_downloader_check * {
+	cursor:pointer;
+}
+.gta_downloader_check input.gta_downloader_check_element  {
+	display:block; 
+	position:absolute; 
+	top:50%; 
+	left:0; 
+	width:16px; 
+	height:16px; 
+	opacity:0; 
+	background:none; 
+	border:0; 
+	visibility:hidden; 
+	margin:-8px 0 0 0; 
+	z-index:2;
+}
+.gta_downloader_check input.gta_downloader_check_element + .gta_downloader_check_block  {
+	display:block; 
+	position:absolute; 
+	left:0; 
+	top:50%; 
+	width:14px; 
+	height:14px; 
+	border:1px solid #b2b2b2; 
+	margin:-8px 0 0 0; 
+	border-radius:1px; 
+	background:#fff;
+}
+.gta_downloader_check input.gta_downloader_check_element + .gta_downloader_check_block i  {
+	display:block; 
+	position:absolute; 
+	left:50%; 
+	top:50%; 
+	width:10px; 
+	height:10px; 
+	margin:-5px 0 0 -5px;
+}
+.gta_downloader_check input.gta_downloader_check_element:checked + .gta_downloader_check_block i  {
+	background:#4acc4f;
+}
+
+/*button*/
+.gta_downloader_button::-moz-focus-inner  {
+	padding:0; margin:0;
+}
+.gta_downloader_button  {
+	display:inline-block; 
+	position:relative; 
+	background:#4acc4f; 
+	border:1px solid #4acc4f; 
+	border-radius:13px; 
+	padding:6px 18px; 
+	color:#fff; 
+	font-size:12px; 
+	cursor:pointer;
+}
+.gta_downloader_button:hover  {
+	background: #42b846;
+}
+.gta_downloader_button_big  {
+	padding:12px 32px; 
+	border-radius:23px; 
+	font-size: 15px; 
+	font-weight:bold; 
+	text-transform:uppercase;
+}
+
+/*settings*/
+#livestartpage {
+	width: 620px;
+	padding-bottom: 30px;
+}	
+.gta_downloader_settings {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+	border-radius: 8px; 
+	background: #f7f7f7; 
+	width:100%; 
+	margin:0 auto;
+}
+
+.gta_downloader_settings_top {background: #3e7db5; border-radius: 8px 8px 0 0; padding:17px 20px; position:relative; cursor:auto;}
+.gta_downloader_settings_logo {position:relative; padding:0 0 0 50px; line-height:37px; font-weight:bold; font-size: 28px; color:#fff;}
+.gta_downloader_settings_logo i {display:block; position:absolute; left:0; top:0; width:33px; height:37px;}
+.gta_downloader_settings_close {position:absolute; right:25px; top:20px; line-height:37px; cursor:pointer; font-size:12px; padding:0 21px 0 0; color:#f7f7f7;}
+.gta_downloader_settings_close i {display:block; position:absolute; right:0; top:50%; width:16px; height:16px; margin:-8px 0 0 0; cursor:pointer;}
+
+.gta_downloader_settings_content {padding:30px 20px 15px 20px;}
+.gta_downloader_settings_title {color: rgba(0, 0, 0, 0.87); font-size:15px; line-height: 18px; font-weight:bold; text-transform:uppercase; padding:0 0 12px 0;}
+.gta_downloader_settings_fields_set {
+	padding:0 0 0 0; 
+} 
+.gta_downloader_settings_field {padding:0 10px 22px 10px; color: rgba(21, 21, 21, 0.7); font-size:12px;} 
+.gta_downloader_settings_field .gta_downloader_check {line-height:16px;}
+.gta_downloader_settings_submit {text-align:center;}
+
+/*links menu*/
+.gta_downloader_links_menu {}
+.gta_downloader_links_menu_item {float:left; padding:0 20px 0 0;}
+.gta_downloader_links_menu_item_last {padding:0;}
+.gta_downloader_links_menu_item a {display:block; position:relative; text-decoration:none; padding:0 0 0 22px; cursor:pointer; line-height:16px; color: rgba(21, 21, 21, 0.7); font-size:12px;}
+.gta_downloader_links_menu_item a i {display:block; position:absolute; left:0; top:0; width:16px; height:16px;}
+.gta_downloader_links_menu_item a:hover {color:#000;}
+
+.gta_downloader_file_name {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    border: 1px groove threedface;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    min-width: -webkit-min-content;
+	margin-bottom: 10px;
+}
+
+.gta_downloader_file_name label {
+	margin: 5px 0;	
+}	
+
+.gta_downloader-options-scale {
+	float: left;	
+	margin: 5px 20px 0 0;
+}	
+#scaleSelect {
+	background: #ddd;
+	padding: 5px;
+}	
+
+
+
+
+
+
+
+
+
+/*
+#mainContainer .head{
+	height: 42px;
+	background: url( /images/options/head_bg.png ) repeat-x #008fe7;
+	border-bottom: 1px solid #1173b0;
+
+}
+
+#mainContainer .head .text{
+	background: url( /images/options/head_text.png ) no-repeat;
+	width: 620px;
+	height: 42px;
+}
+
+#mainContainer .body{
+	background-color: #00aff0;
+}
+
+#mainContainer .body .description1{
+	padding: 5px 20px 0px 20px;
+}
+
+#mainContainer .body table.advantages{
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	margin-top: 12px;	
+}
+
+#mainContainer .body table.advantages td{
+	
+	width: 50%;
+	
+}
+
+#mainContainer .body table.advantages h3{
+	
+	font-size: 16px;
+
+	margin: 0px;
+	
+}
+
+#mainContainer .body table.advantages ul{	
+	margin: 0px;
+	list-style: none;
+	padding: 0px;	
+}
+
+#mainContainer .body table.advantages ul li{	
+	margin: 0px;	
+}
+
+#mainContainer .body .macOsAd{
+	height: 77px;
+	border-top: 1px solid #94e2ff;
+	border-bottom: 1px solid #94e2ff;
+	position: relative;		
+}
+
+#mainContainer .foot{
+	height: 40px;
+	background: -webkit-linear-gradient( 90deg, #00aef0, #008ce7 );
+	padding: 5px;
+	position: relative;
+	
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#mainContainer .foot .text{
+	width: 208px;
+	height: 39px;
+	background: url( /images/options/bottom_text.png );
+	margin-left: 5px;
+}
+
+#mainContainer .foot .buttons{
+	position: absolute;
+	right: 0px;
+	top: 8px;
+	
+	width: 200px;
+	height: 50px;
+	
+	display: table;
+}
+
+#mainContainer .foot .buttons > a{
+	display: inline-block;	
+	vertical-align: middle;
+	
+	margin-left: 10px;
+	
+	opacity: 0.7;
+}	
+
+#mainContainer .foot .buttons > a:hover{
+	opacity: 1;
+}
+
+#mainContainer.foot .contact{
+	width: 80px;
+	height: 22px;
+	background: url( /images/options/contact_us.png );
+}
+
+#mainContainer .foot .facebook{
+	width: 35px;
+	height: 35px;
+	background: url( /images/options/facebook.png );
+}
+
+#mainContainer .foot .twitter{
+	width: 35px;
+	height: 35px;
+	background: url( /images/options/twitter.png );
+}
+
+.spacer{
+	height: 10px;
+}
+
+#mainContainer .body .description1{
+	width: 620px;
+	height: 120px;
+	padding: 8px 8px 8px 8px;
+}
+
+#mainContainer .body .description1 .group{
+	width: 400px;
+	height: 100px;
+}
+
+#mainContainer .body .description1 .group fields{
+	margin-top: 5px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	
+	box-shadow: 0px 0px 10px -5px #000;
+	-webkit-transition-duration: 200ms;
+}
+
+#mainContainer .body .description1 .group fieldset > legend{
+	font-weight: bold;
+}
+
+#mainContainer .body .description1 .group fieldset .subSet{
+	width: 45%;
+	height: 180px;
+}
+
+#mainContainer .body .description1 .group  .col1{
+	float: left;
+}
+
+#mainContainer .body .description1 .group  .col1 label{
+	width:170px;
+	float: left;
+}
+
+#mainContainer .body .description1 .group  .col2{
+	padding-left: 20px;
+}
+
+#mainContainer .body .description2{
+	width: 620px;
+	height: 60px;
+	padding: 8px 8px 8px 8px;
+}
+
+#mainContainer .body .description2 .group{
+	width: 400px;
+	height: 60px;
+}
+
+#mainContainer .body .description2 .group fields{
+	margin-top: 5px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	
+	box-shadow: 0px 0px 10px -5px #000;
+	-webkit-transition-duration: 200ms;
+}
+
+#mainContainer .body .description2 .group fieldset > legend{
+	font-weight: bold;
+}
+
+#mainContainer .body .description2 .group fieldset .subSet{
+	width: 45%;
+	height: 25px;
+}
+
+#mainContainer .body .description3{
+	width: 620px;
+	height: 30px;
+	padding: 8px 8px 8px 8px;
+}
+
+#mainContainer .body .description3 .group{
+	width: 400px;
+	height: 60px;
+}
+
+#mainContainer .body .description3 .group fields{
+	margin-top: 5px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	
+	box-shadow: 0px 0px 10px -5px #000;
+	-webkit-transition-duration: 200ms;
+}
+
+
+
+
+#mainContainer .body  #mainMail{
+	position: absolute;
+	top: 50px;
+	right: 15px;
+	text-align: center;
+	width: 44px;
+	height: 44px;
+	background: url(/images/email_open.png);
+	cursor: pointer;
+}
+
+#mainContainer .body  #mainMail:hover{
+	background: url(/images/email_open_hover.png);
+}
+
+#mainContainer .body  #mainMail   #buttonBigSdGetSatisfaction{	
+}
+
+#mainContainer .body  #mainMail  #buttonBigSdGetSatisfaction:hover{	
+}
+
+
+#mainContainer .body .mainMenu{
+	position: absolute;
+	top: 150px;
+	left: 420px;
+	width:120px;
+	height:24px;
+	background-color: red;
+	border-radius: 15px;
+	border: 2px solid #fff;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+/* button */
+#mainContainer .body .fvdButton{
+	position: absolute;
+	top: 270px;
+	left: 420px;
+	width:120px;
+	height:20px;
+	background-color: #ff0000;
+	border-radius: 15px;
+	border: 2px solid #fff;
+	text-align: center;
+	cursor: pointer;
+	padding-top: 2px;
+}
+
+#mainContainer .body .fvdButton:hover{
+	border: 1px solid #fff;
+	background-color: #c80505;
+	color: #333333;
+}
+
+#mainContainer .body .fvdButton:active{
+	border: 2px solid #444444;
+}
+
+#mainContainer .body .fvdButton .text{
+	font:14px/16px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+
+#mainContainer .body .fvdButton.main{
+	background: none;
+	background-color: red;
+}
+
+#mainContainer .body .fvdButton.withLoading[loading="1"]{
+	background-image: url(/images/loading.gif);
+	background-position:  center center;
+	background-repeat: no-repeat;
+}
+
+
+#mainContainer .body .fvdButton.withLoading[loading="0"] .text{
+	display: inline;
+}
+
+#mainContainer .body .fvdButton.withLoading[loading="1"] .text{
+	visibility:hidden;
+}
+
+#mainContainer[havechanges="1"] #applyButton{
+	opacity: 1;
+}
+

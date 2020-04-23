@@ -1,0 +1,131 @@
+{
+   "appDesc": {
+      "message": "Videolar, pdf dosyaları, html, resimler indirin. Yerleşik filtreleri kullanarak web sayfasını analiz edin."
+   },
+   "appName": {
+      "message": "Video Downloader GetThemAll"
+   },
+   "button_download": {
+      "message": "İndir"
+   },
+   "options_about": {
+      "message": "Hakkında"
+   },
+   "options_apply_changes": {
+      "message": "Değişiklikleri uygula"
+   },
+   "options_close": {
+      "message": "Kapat"
+   },
+   "options_facebook": {
+      "message": "facebook.com indirme düğmesini göster"
+   },
+   "options_filename": {
+      "message": "download original FileName"
+   },
+   "options_general": {
+      "message": "SEÇENEKLER"
+   },
+   "options_save": {
+      "message": "Show Save in text"
+   },
+   "options_title": {
+      "message": "Get them all ayarları"
+   },
+   "options_vk": {
+      "message": "vk.com indirme düğmesini göster"
+   },
+   "popup_clear_all": {
+      "message": "Clear all"
+   },
+   "popup_download": {
+      "message": "İNDİR"
+   },
+   "popup_download_warning_1": {
+      "message": "Önemli, lütfen okuyun!"
+   },
+   "popup_download_warning_2": {
+      "message": "Birden fazla dosya indirirken birçok Farklı Kaydet iletişim kutusu açılabilir."
+   },
+   "popup_download_warning_3": {
+      "message": "1. Her zaman İZİN VER düğmesine tıklayın. Aksi takdirde açık olan web sitesinden bir daha birden fazla dosya indiremezsiniz!"
+   },
+   "popup_download_warning_4": {
+      "message": "2. Birden fazla iletişim kutusu açılması sorununu nasıl çözeceğinize dair kısa bir video izleyin."
+   },
+   "popup_download_warning_5": {
+      "message": "Anladım! Bu mesajı bir daha gösterme!"
+   },
+   "popup_download_zip": {
+      "message": "ZIP olarak indir"
+   },
+   "popup_downloader_desc": {
+      "message": "Açıklama"
+   },
+   "popup_downloader_size": {
+      "message": "Boyut"
+   },
+   "popup_downloader_url": {
+      "message": "URL"
+   },
+   "popup_filter_mask": {
+      "message": "Mask:"
+   },
+   "popup_noyoutube_message_1": {
+      "message": "YouTube Politikası nedeniyle. YouTube'dan indirmeye izin verilmez."
+   },
+   "popup_noyoutube_message_2": {
+      "message": "Lütfen olumsuz yorumlar yazmayın. Bu bizim suçumuz değil!"
+   },
+   "popup_noyoutube_message_3": {
+      "message": "Anlayışınız için teşekkürler!"
+   },
+   "popup_rate_button": {
+      "message": "Bize puan verin!"
+   },
+   "popup_rate_text": {
+      "message": "Beğendiyseniz, lütfen ürünümüze puan verin."
+   },
+   "popup_reload_message": {
+      "message": "Bu sayfadan indirmeden önce sayfayı yenilemeniz gerekiyor"
+   },
+   "popup_save_link": {
+      "message": "save link in txt"
+   },
+   "popup_select_all": {
+      "message": "Tümünü seç"
+   },
+   "popup_show_filter": {
+      "message": "Filtreyi göster / Filtreyi gizle"
+   },
+   "popup_show_more": {
+      "message": "show more than"
+   },
+   "popup_show_previews": {
+      "message": "show previews"
+   },
+   "popup_show_title": {
+      "message": "Show:"
+   },
+   "popup_tab_detected": {
+      "message": "detected"
+   },
+   "popup_tab_name_docs": {
+      "message": "Belgeler/Arşiv/Karışık"
+   },
+   "popup_tab_name_images": {
+      "message": "Görüntüler"
+   },
+   "popup_tab_name_links": {
+      "message": "Bağlantılar"
+   },
+   "popup_tab_name_settings": {
+      "message": "Ayarlar"
+   },
+   "popup_tab_name_video": {
+      "message": "Video/Audio"
+   },
+   "popup_tab_not_detected": {
+      "message": "Not detected"
+   }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_main_images</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="assets" sketch:type="MSArtboardGroup" transform="translate(-75.000000, -26.000000)">
+            <g id="ic_main_images" sketch:type="MSLayerGroup" transform="translate(75.000000, 26.000000)">
+                <rect id="bounds" sketch:type="MSShapeGroup" x="0" y="0" width="30" height="30"></rect>
+                <path d="M2,5.00086422 L2,5.00086422 L2,23.9991358 C2,23.9987699 2.00122198,24 1.99161703,24 L28.008383,24 C27.9985991,24 28,23.9985956 28,23.9991358 L28,5.00086422 C28,5.00123012 27.998778,5 28.008383,5 L1.99161703,5 C2.00140087,5 2,5.00140437 2,5.00086422 L2,5.00086422 Z M0,5.00086422 C0,3.89581743 0.89784041,3 1.99161703,3 L28.008383,3 C29.1083227,3 30,3.90162726 30,5.00086422 L30,23.9991358 C30,25.1041826 29.1021596,26 28.008383,26 L1.99161703,26 C0.891677316,26 0,25.0983727 0,23.9991358 L0,5.00086422 L0,5.00086422 Z" id="Shape" fill="#90D5F8" sketch:type="MSShapeGroup"></path>
+                <circle id="Oval-2" fill="#90D5F8" sketch:type="MSShapeGroup" cx="22.5" cy="10.5" r="3.5"></circle>
+                <path d="M1,22.5 C1,22.5 8,15 11.5,15 C15,15 19,18.5 23,18 C27,17.5 28,15 28,15 L29,14 L29,24 L28,25 L2,25 L1,24 L1,22.5 Z" id="Path-13" fill="#90D5F8" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

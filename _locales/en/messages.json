@@ -1,0 +1,134 @@
+{
+   "appDesc": {
+      "message": "Download videos, pdf files, html, images. Analyze webpage using built-in filters."
+   },
+   "appName": {
+      "message": "Video Downloader GetThemAll"
+   },
+   "button_download": {
+      "message": "Download"
+   },
+   "options_about": {
+      "message": "About"
+   },
+   "options_apply_changes": {
+      "message": "Apply Changes"
+   },
+   "options_close": {
+      "message": "Close"
+   },
+   "options_facebook": {
+      "message": "Display facebook.com download button"
+   },
+   "options_filename": {
+      "message": "download original FileName"
+   },
+   "options_general": {
+      "message": "OPTIONS"
+   },
+   "options_save": {
+      "message": "Show Save in text"
+   },
+   "options_scale": {
+      "message": "Scale addon"
+   },
+   "options_title": {
+      "message": "Get them all settings"
+   },
+   "options_vk": {
+      "message": "Display vk.com download button"
+   },
+   "popup_clear_all": {
+      "message": "Clear all"
+   },
+   "popup_download": {
+      "message": "DOWNLOAD"
+   },
+   "popup_download_warning_1": {
+      "message": "Important, please read!"
+   },
+   "popup_download_warning_2": {
+      "message": "When download multiple files, many Save As dialogs may pop-up."
+   },
+   "popup_download_warning_3": {
+      "message": "1. Always click ALLOW button. Otherwise you won't be able to download multiple files again from current website!"
+   },
+   "popup_download_warning_4": {
+      "message": "2. Watch short video how to fix multiple dialog pop-ups."
+   },
+   "popup_download_warning_5": {
+      "message": "I've got it! Don't show this message again!"
+   },
+   "popup_download_zip": {
+      "message": "download as ZIP"
+   },
+   "popup_downloader_desc": {
+      "message": "Description"
+   },
+   "popup_downloader_size": {
+      "message": "Size"
+   },
+   "popup_downloader_url": {
+      "message": "Url"
+   },
+   "popup_filter_mask": {
+      "message": "Mask:"
+   },
+   "popup_noyoutube_message_1": {
+      "message": "Due to YouTube Policy. It isn't allowed to download from YouTube."
+   },
+   "popup_noyoutube_message_2": {
+      "message": "Please, do not post negative reviews. This is not our fault."
+   },
+   "popup_noyoutube_message_3": {
+      "message": "Hope you understand that. Thanks!"
+   },
+   "popup_rate_button": {
+      "message": "Rate us!"
+   },
+   "popup_rate_text": {
+      "message": "If you like us, please rate our product."
+   },
+   "popup_reload_message": {
+      "message": "You need to refresh this page before download from it"
+   },
+   "popup_save_link": {
+      "message": "save link in txt"
+   },
+   "popup_select_all": {
+      "message": "Select all"
+   },
+   "popup_show_filter": {
+      "message": " Show filter / Hide filter "
+   },
+   "popup_show_more": {
+      "message": "show more than"
+   },
+   "popup_show_previews": {
+      "message": "show previews"
+   },
+   "popup_show_title": {
+      "message": "Show:"
+   },
+   "popup_tab_detected": {
+      "message": "detected"
+   },
+   "popup_tab_name_docs": {
+      "message": "Docs/Archives/Misc"
+   },
+   "popup_tab_name_images": {
+      "message": "Images"
+   },
+   "popup_tab_name_links": {
+      "message": "Links"
+   },
+   "popup_tab_name_settings": {
+      "message": "Settings"
+   },
+   "popup_tab_name_video": {
+      "message": "Video/Audio"
+   },
+   "popup_tab_not_detected": {
+      "message": "Not detected"
+   }
+}

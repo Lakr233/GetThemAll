@@ -1,0 +1,131 @@
+{
+   "appDesc": {
+      "message": "Faça downloads de vídeos, arquivos pdf e html e imagens. Analise o site utilizando os filtros embutidos."
+   },
+   "appName": {
+      "message": "Video Downloader GetThemAll"
+   },
+   "button_download": {
+      "message": "Baixar"
+   },
+   "options_about": {
+      "message": "Sobre o app"
+   },
+   "options_apply_changes": {
+      "message": "Aplicar alterações"
+   },
+   "options_close": {
+      "message": "Fechar"
+   },
+   "options_facebook": {
+      "message": "Exibir o botão de downolad do facebook.com"
+   },
+   "options_filename": {
+      "message": "download original FileName"
+   },
+   "options_general": {
+      "message": "OPÇÕES"
+   },
+   "options_save": {
+      "message": "Show Save in text"
+   },
+   "options_title": {
+      "message": "Configurações do GetThemAll"
+   },
+   "options_vk": {
+      "message": "Exibir o botão de downolad do vk.com"
+   },
+   "popup_clear_all": {
+      "message": "Clear all"
+   },
+   "popup_download": {
+      "message": "DOWNLOAD"
+   },
+   "popup_download_warning_1": {
+      "message": "Importante! Leia, por favor."
+   },
+   "popup_download_warning_2": {
+      "message": "Ao baixar diversos arquivos, podem se abrir diversas caixas de diálogo para Salvar."
+   },
+   "popup_download_warning_3": {
+      "message": "1. Sempre clique no botão PERMITIR, de outra forma, não será possível baixar múltiplos arquivos novamente no site atual!"
+   },
+   "popup_download_warning_4": {
+      "message": "2. Assista a um breve vídeo sobre como reparar múltiplas caixas de diálogo pop-up."
+   },
+   "popup_download_warning_5": {
+      "message": "Entendi! Não mostrar esta mensagem novamente!"
+   },
+   "popup_download_zip": {
+      "message": "Baixar como ZIP"
+   },
+   "popup_downloader_desc": {
+      "message": "Descrição"
+   },
+   "popup_downloader_size": {
+      "message": "Tamanho"
+   },
+   "popup_downloader_url": {
+      "message": "URL"
+   },
+   "popup_filter_mask": {
+      "message": "Mask:"
+   },
+   "popup_noyoutube_message_1": {
+      "message": "Devido às políticas do YouTube. Não é permitido fazer downloads do YouTube."
+   },
+   "popup_noyoutube_message_2": {
+      "message": "Solicitamos que não poste críticas negativas. Não cabe a nós solucionar este problema."
+   },
+   "popup_noyoutube_message_3": {
+      "message": "Contamos com a sua compreensão. Obrigado!"
+   },
+   "popup_rate_button": {
+      "message": "Classifique-nos!"
+   },
+   "popup_rate_text": {
+      "message": "Se você gostou do nosso app, pedimos que classifique-nos."
+   },
+   "popup_reload_message": {
+      "message": "É preciso atualizar esta página antes de fazer downloads."
+   },
+   "popup_save_link": {
+      "message": "save link in txt"
+   },
+   "popup_select_all": {
+      "message": "Selecionar tudo"
+   },
+   "popup_show_filter": {
+      "message": "Exibir filtro/Ocultar filtro"
+   },
+   "popup_show_more": {
+      "message": "show more than"
+   },
+   "popup_show_previews": {
+      "message": "show previews"
+   },
+   "popup_show_title": {
+      "message": "Show:"
+   },
+   "popup_tab_detected": {
+      "message": "detected"
+   },
+   "popup_tab_name_docs": {
+      "message": "Docs/Arquivos/Diversos"
+   },
+   "popup_tab_name_images": {
+      "message": "Imagens"
+   },
+   "popup_tab_name_links": {
+      "message": "Links"
+   },
+   "popup_tab_name_settings": {
+      "message": "Configurações"
+   },
+   "popup_tab_name_video": {
+      "message": "Vídeo/Flash"
+   },
+   "popup_tab_not_detected": {
+      "message": "Not detected"
+   }
+}

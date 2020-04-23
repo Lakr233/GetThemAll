@@ -1,0 +1,131 @@
+{
+   "appDesc": {
+      "message": "Laden Sie Videos, PDF-Dateien, HTML-Dateien und Bilder herunter. Analysieren Sie Webseiten mit integrierten Filtern."
+   },
+   "appName": {
+      "message": "Video Downloader GetThemAll"
+   },
+   "button_download": {
+      "message": "Download"
+   },
+   "options_about": {
+      "message": "Über"
+   },
+   "options_apply_changes": {
+      "message": "Änderungen übernehmen"
+   },
+   "options_close": {
+      "message": "Schließen"
+   },
+   "options_facebook": {
+      "message": "facebook.com Download-Schaltfläche anzeigen"
+   },
+   "options_filename": {
+      "message": "download original FileName"
+   },
+   "options_general": {
+      "message": "OPTIONEN"
+   },
+   "options_save": {
+      "message": "Show Save in text"
+   },
+   "options_title": {
+      "message": "GetThemAll Einstellungen"
+   },
+   "options_vk": {
+      "message": "vk.com Download-Schaltfläche anzeigen"
+   },
+   "popup_clear_all": {
+      "message": "Clear all"
+   },
+   "popup_download": {
+      "message": "DOWNLOAD"
+   },
+   "popup_download_warning_1": {
+      "message": "Wichtig, bitte lesen!"
+   },
+   "popup_download_warning_2": {
+      "message": "Wenn Sie mehrere Dateien herunterladen, können viele \"Speichern als...\"-Fenster erscheinen."
+   },
+   "popup_download_warning_3": {
+      "message": "1. Klicken Sie immer auf ZULASSEN. Andernfalls können Sie von der aktuellen Webseite nicht weiter mehrere Dateien herunterladen!"
+   },
+   "popup_download_warning_4": {
+      "message": "2. Sehen Sie sich das kurze Video darüber an, wie Sie mit vielen Dialog-Fenstern umgehen."
+   },
+   "popup_download_warning_5": {
+      "message": "Verstanden! Nicht mehr anzeigen!"
+   },
+   "popup_download_zip": {
+      "message": "Als ZIP herunterladen"
+   },
+   "popup_downloader_desc": {
+      "message": "Beschreibung"
+   },
+   "popup_downloader_size": {
+      "message": "Größe"
+   },
+   "popup_downloader_url": {
+      "message": "URL"
+   },
+   "popup_filter_mask": {
+      "message": "Mask:"
+   },
+   "popup_noyoutube_message_1": {
+      "message": "Aufgrund der YouTube-Richtlinien. Von YouTube darf nicht heruntergeladen werden."
+   },
+   "popup_noyoutube_message_2": {
+      "message": "Bitte schreiben Sie keine negativen Bewertungen. Es ist nicht unsere Schuld."
+   },
+   "popup_noyoutube_message_3": {
+      "message": "Vielen Dank für Ihr Verständnis!"
+   },
+   "popup_rate_button": {
+      "message": "Bewerten Sie uns!"
+   },
+   "popup_rate_text": {
+      "message": "Wenn Sie uns mögen, bewerten Sie bitte unser Produkt"
+   },
+   "popup_reload_message": {
+      "message": "Sie müssen diese Seite erneut laden, bevor Sie etwas herunterladen können"
+   },
+   "popup_save_link": {
+      "message": "save link in txt"
+   },
+   "popup_select_all": {
+      "message": "Alle auswählen"
+   },
+   "popup_show_filter": {
+      "message": "Filter anzeigen/ausblenden"
+   },
+   "popup_show_more": {
+      "message": "show more than"
+   },
+   "popup_show_previews": {
+      "message": "show previews"
+   },
+   "popup_show_title": {
+      "message": "Show:"
+   },
+   "popup_tab_detected": {
+      "message": "detected"
+   },
+   "popup_tab_name_docs": {
+      "message": "Doks/Archive/Sonst"
+   },
+   "popup_tab_name_images": {
+      "message": "Bilder"
+   },
+   "popup_tab_name_links": {
+      "message": "Links"
+   },
+   "popup_tab_name_settings": {
+      "message": "Einstellungen"
+   },
+   "popup_tab_name_video": {
+      "message": "Video/Audio"
+   },
+   "popup_tab_not_detected": {
+      "message": "Not detected"
+   }
+}

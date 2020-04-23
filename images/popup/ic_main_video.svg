@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_main_video</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="assets" sketch:type="MSArtboardGroup" transform="translate(-173.000000, -26.000000)">
+            <g id="ic_main_video" sketch:type="MSLayerGroup" transform="translate(173.000000, 26.000000)">
+                <rect id="bounds" sketch:type="MSShapeGroup" x="0" y="0" width="30" height="30"></rect>
+                <path d="M2,5.99109042 L2,5.99109042 L2,24.0089096 C2,24.5521846 2.45019323,25 3.00878799,25 L17.991212,25 C18.551806,25 19,24.5542898 19,24.0089096 L19,5.99109042 C19,5.44781536 18.5498068,5 17.991212,5 L3.00878799,5 C2.44819396,5 2,5.44571017 2,5.99109042 L2,5.99109042 Z M0,5.99109042 C0,4.33915679 1.34559019,3 3.00878799,3 L17.991212,3 C19.6529197,3 21,4.34177063 21,5.99109042 L21,24.0089096 C21,25.6608432 19.6544098,27 17.991212,27 L3.00878799,27 C1.34708027,27 0,25.6582294 0,24.0089096 L0,5.99109042 L0,5.99109042 Z" id="Shape" fill="#90D5F8" sketch:type="MSShapeGroup"></path>
+                <path d="M28.0518351,18.9999998 C28.0509201,18.9992715 28,14.9954684 28,14.9954684 L28,11 C28,10.9923339 23,14.9954684 23,14.9954684 C23.1482671,14.8774547 28.0518351,18.9999998 28.0518351,18.9999998 Z M21.7110172,16.2418418 C20.8490588,15.555763 20.8586694,14.4357599 21.7110172,13.7573307 L28.4392863,8.4019412 C29.3012447,7.7158624 30,8.0479245 30,9.15764884 L30,12.7150836 L30,20.8338589 C30,21.9415366 29.2916341,22.2756605 28.4392863,21.5972312 L21.7110172,16.2418418 L21.7110172,16.2418418 Z" id="Shape" fill="#90D5F8" sketch:type="MSShapeGroup"></path>
+                <path d="M10.1373283,10.971318 C10.6139483,10.2938834 11.3856558,10.2923965 11.8633219,10.971318 L16.2972502,17.2733962 C16.7738702,17.9508308 16.4795115,18.5 15.6676088,18.5 L12.7952915,18.5 L6.33454496,18.5 C5.50935327,18.5 5.22573394,17.9523177 5.70340003,17.2733962 L10.1373283,10.971318 Z" id="Triangle-3" fill="#90D5F8" sketch:type="MSShapeGroup" transform="translate(11.000000, 14.500000) scale(-1, 1) rotate(-90.000000) translate(-11.000000, -14.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

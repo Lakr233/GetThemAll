@@ -1,0 +1,131 @@
+{
+   "appDesc": {
+      "message": "組み込みフィルタを使用してWebページを分析。ビデオ、PDFファイル、HTML、画像をダウンロード"
+   },
+   "appName": {
+      "message": "Video Downloader GetThemAll"
+   },
+   "button_download": {
+      "message": "ダウンロードする"
+   },
+   "options_about": {
+      "message": "詳細"
+   },
+   "options_apply_changes": {
+      "message": "変更を適用する"
+   },
+   "options_close": {
+      "message": "閉じる"
+   },
+   "options_facebook": {
+      "message": "facebook.comダウンロードボタンを表示する"
+   },
+   "options_filename": {
+      "message": "download original FileName"
+   },
+   "options_general": {
+      "message": "オプション"
+   },
+   "options_save": {
+      "message": "Show Save in text"
+   },
+   "options_title": {
+      "message": "GetThemAllの設定"
+   },
+   "options_vk": {
+      "message": "vk.comダウンロードボタンを表示する"
+   },
+   "popup_clear_all": {
+      "message": "Clear all"
+   },
+   "popup_download": {
+      "message": "ダウンロード"
+   },
+   "popup_download_warning_1": {
+      "message": "重要ですので、必ずお読みください！"
+   },
+   "popup_download_warning_2": {
+      "message": "複数のファイルをダウンロードする際には、複数の「名前をつけて保存」ダイアログがポップアップする場合がございます。"
+   },
+   "popup_download_warning_3": {
+      "message": "1.常にボタンを「許可する」をクリックします。そうしないと、現在のWebサイトから再び、複数のファイルをダウンロードすることができなくなります！"
+   },
+   "popup_download_warning_4": {
+      "message": "2.複数のダイアログポップアップを修正する方法を、短編動画でご確認ください。"
+   },
+   "popup_download_warning_5": {
+      "message": "わかりました！今後このメッセージを表示しないでください！"
+   },
+   "popup_download_zip": {
+      "message": "ZIPとしてダウンロード"
+   },
+   "popup_downloader_desc": {
+      "message": "詳細"
+   },
+   "popup_downloader_size": {
+      "message": "サイズ"
+   },
+   "popup_downloader_url": {
+      "message": "URL"
+   },
+   "popup_filter_mask": {
+      "message": "Mask:"
+   },
+   "popup_noyoutube_message_1": {
+      "message": "YouTubeポリシーより、この動画をYouTubeのからダウンロードすることはできません。"
+   },
+   "popup_noyoutube_message_2": {
+      "message": "これは私どもの責任ではございませんので、否定的なレビューを投稿しないでください。"
+   },
+   "popup_noyoutube_message_3": {
+      "message": "ご理解ご協力、ありがとうございます！"
+   },
+   "popup_rate_button": {
+      "message": "評価をお願いいたします！"
+   },
+   "popup_rate_text": {
+      "message": "気に入っていただけましたら、評価していただければ幸いです。"
+   },
+   "popup_reload_message": {
+      "message": "ダウンロードする前に、このページを更新する必要があります"
+   },
+   "popup_save_link": {
+      "message": "save link in txt"
+   },
+   "popup_select_all": {
+      "message": "全て選択する"
+   },
+   "popup_show_filter": {
+      "message": " フィルターを表示/フィルターを非表示"
+   },
+   "popup_show_more": {
+      "message": "show more than"
+   },
+   "popup_show_previews": {
+      "message": "show previews"
+   },
+   "popup_show_title": {
+      "message": "Show:"
+   },
+   "popup_tab_detected": {
+      "message": "detected"
+   },
+   "popup_tab_name_docs": {
+      "message": "ドキュメント/アーカイブ/その他"
+   },
+   "popup_tab_name_images": {
+      "message": "画像"
+   },
+   "popup_tab_name_links": {
+      "message": "リンク"
+   },
+   "popup_tab_name_settings": {
+      "message": "設定"
+   },
+   "popup_tab_name_video": {
+      "message": "動画/フラッシュ"
+   },
+   "popup_tab_not_detected": {
+      "message": "Not detected"
+   }
+}

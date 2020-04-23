@@ -1,0 +1,398 @@
+<html style="width:800px; height:600px;">
+<head>
+	
+	<script type="text/javascript" src="/js/popup/namespace.js"></script>	
+	
+	<script type="text/javascript" src="/js/background/Media.js"></script>	
+	<script type="text/javascript" src="/js/Prefs.js"></script>				
+	<script type="text/javascript" src="/js/Utils.js"></script>
+	<script type="text/javascript" src="/js/popup/Popup.js"></script>	
+	<script type="text/javascript" src="/js/popup.js"></script>
+	<script type="text/javascript" src="/js/locale.js"></script>		
+	<script type="text/javascript" src="/js/ad.js"></script>			
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <link rel="stylesheet" type="text/css" href="/js/_external/perfect-scrollbar.css"/>
+    <script type="text/javascript" src="/js/_external/perfect-scrollbar.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/popup.css" />
+	
+</head>
+<body>
+
+<div id="GtaSuggestionMessage" hidden="true">
+	<div class="text" msg="popup_rate_text"></div>
+	<img src="/images/star.png" class="rate_star"/>
+	<img src="/images/star.png" class="rate_star"/>
+	<img src="/images/star.png" class="rate_star"/>
+	<img src="/images/star.png" class="rate_star"/>
+	<img src="/images/star.png" class="rate_star"/> 
+	<a class="button"><span class="text" msg="popup_rate_button"></span></a>
+</div>
+
+<!-- window -->
+<div class="gta_downloader_global gta_downloader_window">
+	<div class="gta_downloader_window_wrapper"> 
+		
+		<!-- container -->
+		<div id="masterMain" class="gta_downloader_container"> 
+
+			<!-- top -->
+			<div id="masterHead" class="gta_downloader_top">
+				<div class="gta_downloader_top_triangle"></div>
+			
+				<!-- tabs -->
+				<div class="gta_downloader_tabs">
+					<div class="gta_downloader_tabs_wrapper"> 
+					
+						<div class="gta_downloader_tabs_holder gta_downloader_clearfix"> 
+						
+							<!-- tab -->
+							<div id="tab_links" class="gta_downloader_tab">
+								<div class="gta_downloader_tab_holder">
+									<div class="gta_downloader_tab_icon gta_downloader_icon_ic_main_link"></div>
+									<div class="gta_downloader_tab_bord"></div>
+									<div class="gta_downloader_tab_name">
+										<div class="gta_downloader_tab_name_text gta_downloader_noselect" msg="popup_tab_name_links"></div>
+										<div class="gta_downloader_tab_count gta_downloader_noselect" id="vubor_links"></div>
+									</div>
+									<div class="gta_downloader_tab_desc gta_downloader_noselect" id="count_links"></div>
+								</div>
+							</div>
+							<!-- /tab --> 
+							
+							<!-- tab -->
+							<div id="tab_images" class="gta_downloader_tab">
+								<div class="gta_downloader_tab_holder">
+									<div class="gta_downloader_tab_icon gta_downloader_icon_ic_main_images"></div>
+									<div class="gta_downloader_tab_bord"></div>
+									<div class="gta_downloader_tab_name">
+										<div class="gta_downloader_tab_name_text gta_downloader_noselect" msg="popup_tab_name_images"></div>
+										<div class="gta_downloader_tab_count gta_downloader_noselect" id="vubor_images"></div>
+									</div>
+									<div class="gta_downloader_tab_desc gta_downloader_noselect" id="count_images"></div>
+								</div>
+							</div>
+							<!-- /tab --> 
+						
+							<!-- tab -->
+							<div id="tab_docs" class="gta_downloader_tab">
+								<div class="gta_downloader_tab_holder">
+									<div class="gta_downloader_tab_icon gta_downloader_icon_ic_main_files"></div>
+									<div class="gta_downloader_tab_bord"></div>
+									<div class="gta_downloader_tab_name">
+										<div class="gta_downloader_tab_name_text gta_downloader_noselect" msg="popup_tab_name_docs"></div>
+										<div class="gta_downloader_tab_count gta_downloader_noselect" id="vubor_docs"></div>
+									</div>
+									<div class="gta_downloader_tab_desc gta_downloader_noselect" id="count_docs"></div>
+								</div>
+							</div>
+							<!-- /tab --> 
+							
+							<!-- tab -->
+							<div id="tab_videos" class="gta_downloader_tab gta_downloader_tab_last">
+								<div class="gta_downloader_tab_holder">
+									<div class="gta_downloader_tab_icon gta_downloader_icon_ic_main_video"></div>
+									<div class="gta_downloader_tab_bord"></div>
+									<div class="gta_downloader_tab_name">
+										<div class="gta_downloader_tab_name_text gta_downloader_noselect" msg="popup_tab_name_video"></div>
+										<div class="gta_downloader_tab_count gta_downloader_noselect" id="vubor_videos"></div>
+									</div>
+									<div class="gta_downloader_tab_desc gta_downloader_noselect" id="count_videos"></div>
+								</div>
+							</div>
+							<!-- /tab --> 
+
+						</div>    <!-- /gta_downloader_tabs_holder --> 
+					
+						<!-- tab settings -->
+						<div id="tab_settings" class="gta_downloader_tab_settings"> 
+							<a>
+								<div class="gta_downloader_tab_settings_icon gta_downloader_icon_ic_options_16"></div>
+								<span class="gta_downloader_tab_settings_title" msg="popup_tab_name_settings"></span>
+							</a> 
+						</div>
+						<!-- /tab settings --> 
+						
+					</div>  <!-- /gta_downloader_tabs_wrapper  -->
+				</div>
+				<!-- /tabs --> 
+			
+			</div>		<!-- /masterHead  -->
+			<!-- /top --> 
+		
+			<!-- header -->
+			<div class="gta_downloader_header">
+				<div class="gta_downloader_header_wrapper gta_downloader_clearfix">
+					<div class="gta_downloader_name" id="head_all_sel"  check="0">
+						<label class="gta_downloader_select_all">
+							<span class="gta_downloader_noselect" msg="popup_select_all"></span>
+						</label>
+					</div>
+					<div class="gta_downloader_url"    id="head_url" msg="popup_downloader_url"></div>
+					<div class="sort_url"   id="sort_url" sort="none"></div>
+					<div class="gta_downloader_desc"   id="head_descr" msg="popup_downloader_desc"></div>
+					<div class="sort_descr" id="sort_descr" sort="none"></div>
+					<div class="gta_downloader_size"   id="head_size" msg="popup_downloader_size"></div>
+					<div class="sort_size"  id="sort_size" sort="none"></div>
+					<div class="gta_downloader_clear" id="head_clear_all"  check="0">
+						<label class="gta_downloader_clear_all">
+							<span class="gta_downloader_clear_all_title"  msg="popup_clear_all"></span>
+						</label>
+					</div>
+				</div>
+			</div>
+			<!-- /header --> 
+
+			<div id="showMain" class="gta_downloader_show_container"> 
+
+				<!-- list -->
+				<div id="gta_downloader_list" class="gta_downloader_list"> 
+					
+					<!-- list content -->
+					<div class="gta_downloader_list_content_wrapper" id="download_item_container"> 
+						
+					</div>
+					<!-- /list content --> 
+					
+				</div>
+				<!-- /list --> 
+					
+				<!-- download_item --> 
+				<div class="download_item js-item" id="download_item_template">
+					<div class="gta_downloader_item gta_downloader_clearfix">
+						<div class="gta_downloader_name">
+							<label class="gta_downloader_check">
+								<input class="gta_downloader_check_element item_sel" type="checkbox">
+								<span class="gta_downloader_check_block">
+									<i></i>
+								</span>
+							</label>
+							<div class="gta_downloader_type item_ext">icon file type</div>
+							<div class="gta_downloader_text_load">load</div>
+							<div class="gta_downloader_text_zip">zip</div>
+							<div class="gta_downloader_text_count"></div>
+							<div class="gta_downloader_name_title"><a class="item_url" href="#" title="#" target="_blank"><span msg="popup_downloader_url"></span></a></div>
+						</div>
+						<div class="gta_downloader_desc item_descr"><span msg="popup_downloader_desc"></span></div>
+						<div class="gta_downloader_size item_size"></div>
+						<div class="gta_downloader_icon item_icon">
+							<a class="download_button">
+							  <span class="text js-download-button">Download</span>
+							  <div class="loading"></div>
+							  <div class="size"></div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- /download_item --> 
+				<!-- /download_icon --> 
+				<div class="download_icon js-item" id="download_icon_template">
+					<div class="info_icon">
+						<img class="info_img" src="" style="" title="" >
+						<label class="gta_downloader_check">
+							<input class="gta_downloader_check_element item_sel" type="checkbox">
+							<span class="gta_downloader_check_block">
+								<i></i>
+							</span>
+						</label>
+						<!--div class="info_sel" check="0"></div-->
+						<div class="info_size"></div>
+					</div>
+				</div>
+				<!-- /download_icon --> 
+				
+			</div>    <!-- showMain -->	
+			
+			<div id="masterFooter" class="gta_downloader_footer_container">
+			
+				<!-- filter -->
+				<div class="gta_downloader_filter" id="filter_block" style="display:block">
+					<div class="gta_downloader_filter_wrapper">
+						<div class="gta_downloader_filter_close gta_downloader_icon_ic_hide" id="close_filter"></div>
+						
+						<!-- filter block -->
+						<div class="gta_downloader_filter_block">
+							<div class="gta_downloader_filter_title" msg="popup_show_title"></div>
+							
+							<div id="filter_links" class="gta_downloader_filter_content"> 
+								
+								<!-- filter set -->
+								<div class="gta_downloader_filter_set">
+									<div class="gta_downloader_filter_set_content gta_downloader_clearfix">
+									</div>
+								</div>
+								<!-- /filter set --> 
+								
+							</div>
+							
+							<div id="filter_images" class="gta_downloader_filter_content"> 
+								
+								<!-- filter set -->
+								<div class="gta_downloader_filter_set">
+									<div class="gta_downloader_filter_set_content gta_downloader_clearfix">
+									</div>
+								</div>
+								<!-- /filter set --> 
+								
+								<!-- filter set -->
+								<div class="gta_downloader_filter_set">
+									<div class="gta_downloader_filter_set_content gta_downloader_clearfix">
+										<div class="gta_downloader_filter_item">
+											<label class="gta_downloader_check">
+												<input type="checkbox" id="flag_image_preview" class="gta_downloader_check_element">
+												<span class="gta_downloader_check_block">
+													<i></i>
+												</span>
+												<span msg="popup_show_previews"></span>
+											</label>
+										</div>
+										<div class="gta_downloader_filter_item">
+											<span class="gta_downloader_input_label" msg="popup_show_more"></span>
+											<input class="gta_downloader_input_text" type="text" id="filter_image_size" value="">
+											Kb </div>
+									</div>
+								</div>
+								<!-- /filter set --> 
+								
+							</div>
+							
+							<div id="filter_docs" class="gta_downloader_filter_content"> 
+								
+								<!-- filter set -->
+								<div class="gta_downloader_filter_set">
+									<div class="gta_downloader_filter_set_content gta_downloader_clearfix">
+									</div>
+								</div>
+								<!-- /filter set --> 
+								
+							</div>
+							
+							<div id="filter_videos" class="gta_downloader_filter_content"> 
+								
+								<!-- filter set -->
+								<div class="gta_downloader_filter_set">
+									<div class="gta_downloader_filter_set_content gta_downloader_clearfix">
+									</div>
+								</div>
+								<!-- /filter set --> 
+								
+							</div>
+							
+						</div>
+						<!-- /filter block --> 
+						
+					</div>
+				</div>
+				<!-- /nca filter --> 
+				
+				<!-- footer -->
+				<div class="gta_downloader_footer">
+					<div class="gta_downloader_footer_wrapper">
+						<div class="show_filter">
+							<button class="gta_downloader_button gta_downloader_button_white" type="button" id="show_filter"><span msg="popup_show_filter"></span></button>
+						</div>
+						<div class="show_mask gta_downloader_clearfix">
+							<span class="gta_downloader_mask_text"  msg="popup_filter_mask"></span>
+							<input class="gta_downloader_input_mask_text" type="text" id="filter_mask_text" value="">
+						</div>
+						
+						<!-- gta_downloader_links_menu -->
+						<div class="gta_downloader_links_menu gta_downloader_clearfix" style="float: right;">
+								<div class="gta_downloader_links_menu_item"> <a href="http://feedback.getthemall.org" target="_blank" title="">
+								<i class="gta_downloader_icon_feedback_icon"></i>
+								Feedback </a> </div>
+								<div class="gta_downloader_links_menu_item gta_downloader_links_menu_item_last"> <a href="http://getthemall.org/gta-quick-guide/ " target="_blank" title="">
+									<i class="gta_downloader_icon_help_icon"></i>
+									Help </a> </div>
+						</div>
+						<!-- /gta_downloader_links_menu -->
+						
+						<div class="gta_downloader_zip" style="display:none;">
+							<label class="gta_downloader_check">
+								<input type="checkbox" id="gta_downloader_zip" class="gta_downloader_check_element">
+								<span class="gta_downloader_check_block">
+									<i></i>
+								</span>
+								<span msg="popup_download_zip"></span>
+							</label>					
+						</div>
+						<button class="gta_downloader_button gta_downloader_savelink" type="submit" disabled="true" id="savelinkButton">
+								<span class="title_button" msg="popup_save_link"></span>
+						</button>
+						<div class="gta_downloader_submit">
+							<button class="gta_downloader_button gta_downloader_button_big" type="submit" disabled id="downButton">
+								<span class="title_button" msg="popup_download"></span>
+								<span id="total_count" class="total_count">(0)</span>
+							</button>
+						</div>
+					</div>
+				</div>
+				<!-- /footer --> 
+			</div>		<!-- masterFooter -->
+			
+		</div>		<!-- masterMain -->
+		<!-- /container --> 
+		
+		<div class="main" id="downloadBox">	
+			<div class="downloadBox_body">
+				<div class="downloadBox_message" style="margin-top: 10px"><span msg="popup_download_warning_1"></span></div>
+				<div class="downloadBox_message"><span style="color:red" msg="popup_download_warning_2"></span></div>
+				
+				<div class="downloadBox_text1">
+					<span msg="popup_download_warning_3"></span>
+				</div>
+				<div class="downloadBox_img1">
+					<img src="/images/allow_deny.png" >
+				</div>
+				<div class="downloadBox_text2">
+					<span msg="popup_download_warning_4"></span>
+				</div>
+				<div class="downloadBox_img2">
+					<a target="_blank" href="http://www.youtube.com/watch?v=A1sP-XUTZ0U&amp;feature=youtu.be"><img src="/images/video_help.png" ></a>
+				</div>
+
+				<div class="downloadBox_checkbox">
+					<input type="checkbox"  id="download_warning" />
+					<span id="downloadBox_label" msg="popup_download_warning_5"></span></div>
+				
+				<div id="downloadBox_Button">
+					<button class="gta_downloader_button gta_downloader_button_big" type="submit" id="downBox_Button">
+						<span msg="popup_download"></span>
+					</button>
+				</div>
+				
+			</div>
+		</div>					
+		
+		<div id="messageBox" class="gta_downloader_message_noyoutube" hidden="true">	
+			<div class="message_body">	
+					<div class="message">
+						<span msg="popup_noyoutube_message_1"></span><br>
+						<span msg="popup_noyoutube_message_2"></span><br>
+						<span msg="popup_noyoutube_message_3"></span>
+					</div>
+			</div>
+		</div>					
+		
+		<div id="messageBoxReload" class="gta_downloader_message_reload" hidden="true">	
+			<div class="message_body">	
+					<div class="message">
+						<span msg="popup_reload_message"></span><br>
+					</div>
+			</div>
+		</div>					
+		
+	</div>
+</div>
+
+<!-- /window --> 
+<div id="image-tooltip" style="top: 100px; left: 100px; ">
+	<div id="rg3fbpz-title" loading="1">
+		<img id="preview-image" src="" style="position: relative; z-index: 2; width: auto; min-height: 50px; max-height: 250px;" title="" loaded="loaded">
+	</div>
+</div>
+        
+</body>
+</html>

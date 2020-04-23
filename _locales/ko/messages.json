@@ -1,0 +1,131 @@
+{
+   "appDesc": {
+      "message": "내장 필터를 사용하여 웹페이지를 분석. 동영상, pdf 파일, html, 이미지 다운로드"
+   },
+   "appName": {
+      "message": "Video Downloader GetThemAll"
+   },
+   "button_download": {
+      "message": "다운로드"
+   },
+   "options_about": {
+      "message": "소개"
+   },
+   "options_apply_changes": {
+      "message": "변경 사항 적용"
+   },
+   "options_close": {
+      "message": "닫기"
+   },
+   "options_facebook": {
+      "message": "facebook.com 다운로드 버튼 표시"
+   },
+   "options_filename": {
+      "message": "download original FileName"
+   },
+   "options_general": {
+      "message": "옵션"
+   },
+   "options_save": {
+      "message": "Show Save in text"
+   },
+   "options_title": {
+      "message": "GetThemAll 설정"
+   },
+   "options_vk": {
+      "message": "vk.com 다운로드 버튼 표시"
+   },
+   "popup_clear_all": {
+      "message": "Clear all"
+   },
+   "popup_download": {
+      "message": "다운로드"
+   },
+   "popup_download_warning_1": {
+      "message": "중요, 읽어주세요!"
+   },
+   "popup_download_warning_2": {
+      "message": "여러 개의 파일을 다운로드할 때, '다른이름으로 저장' 대화창이 여러 개 나타납니다."
+   },
+   "popup_download_warning_3": {
+      "message": "1. 항상 '허용' 버튼을 클릭하십시오. 그렇지 않으면 현재 웹사이트에서 여러 파일을 다운로드할 수 없게 됩니다."
+   },
+   "popup_download_warning_4": {
+      "message": "2. 여러개의 팝업 대화창이 나타나는 문제를 고치려면 간단한 안내 동영상을 보세요."
+   },
+   "popup_download_warning_5": {
+      "message": "알겠습니다! 이 메시지를 다시 표시하지 마십시오!"
+   },
+   "popup_download_zip": {
+      "message": "zip으로 다운로드"
+   },
+   "popup_downloader_desc": {
+      "message": "설명"
+   },
+   "popup_downloader_size": {
+      "message": "크기"
+   },
+   "popup_downloader_url": {
+      "message": "URL"
+   },
+   "popup_filter_mask": {
+      "message": "Mask:"
+   },
+   "popup_noyoutube_message_1": {
+      "message": "YouTube 정책 때문에 YouTube에서는 다운로드할 수 없습니다."
+   },
+   "popup_noyoutube_message_2": {
+      "message": "부정적인 후기를 게시하지 말아 주십시오. 이것은 저희 잘못이 아닙니다."
+   },
+   "popup_noyoutube_message_3": {
+      "message": "이해해 주시기 바랍니다. 감사합니다!"
+   },
+   "popup_rate_button": {
+      "message": "평가!"
+   },
+   "popup_rate_text": {
+      "message": "제품이 마음에 드시면, 저희 제품을 평가해 주십시오."
+   },
+   "popup_reload_message": {
+      "message": "다운로드하기 전에 이 페이지를 새로 고쳐야 합니다."
+   },
+   "popup_save_link": {
+      "message": "save link in txt"
+   },
+   "popup_select_all": {
+      "message": "전부 선택"
+   },
+   "popup_show_filter": {
+      "message": "필터 표시/숨기기"
+   },
+   "popup_show_more": {
+      "message": "show more than"
+   },
+   "popup_show_previews": {
+      "message": "show previews"
+   },
+   "popup_show_title": {
+      "message": "Show:"
+   },
+   "popup_tab_detected": {
+      "message": "detected"
+   },
+   "popup_tab_name_docs": {
+      "message": "문서/자료실/기타"
+   },
+   "popup_tab_name_images": {
+      "message": "이미지"
+   },
+   "popup_tab_name_links": {
+      "message": "링크"
+   },
+   "popup_tab_name_settings": {
+      "message": "설정"
+   },
+   "popup_tab_name_video": {
+      "message": "동영상/플래시"
+   },
+   "popup_tab_not_detected": {
+      "message": "Not detected"
+   }
+}

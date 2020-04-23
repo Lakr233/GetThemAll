@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>3dspeeddial_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="assets" sketch:type="MSArtboardGroup" transform="translate(-85.000000, -115.000000)">
+            <g id="3dspeeddial_icon" sketch:type="MSLayerGroup" transform="translate(85.000000, 115.000000)">
+                <g id="Group" transform="translate(3.000000, 6.000000)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-55" fill="#3CADE5" x="0" y="0.0130718954" width="4.43863471" height="4.43863471" rx="1"></rect>
+                    <rect id="Rectangle-56" fill="#F8AC00" x="5.54829339" y="0.0130718954" width="4.43863471" height="4.43863471" rx="1"></rect>
+                    <rect id="Rectangle-57" fill="#35AD00" x="5.54829339" y="5.56136529" width="4.43863471" height="4.43863471" rx="1"></rect>
+                    <rect id="Rectangle-58" fill="#ED1700" x="0" y="5.56136529" width="4.43863471" height="4.43863471" rx="1"></rect>
+                </g>
+                <path d="M1,6 L8,1" id="Line" stroke="#626262" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                <path d="M12,3.5 L12,1" id="Line" stroke="#626262" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                <path d="M8,6 L15,1" id="Line" stroke="#626262" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup" transform="translate(11.500000, 3.500000) scale(-1, 1) translate(-11.500000, -3.500000) "></path>
+                <rect id="bounds" sketch:type="MSShapeGroup" x="0" y="0" width="16" height="16"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

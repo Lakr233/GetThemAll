@@ -1,0 +1,131 @@
+{
+   "appDesc": {
+      "message": "Descarga vídeos, archivos PDF, HTML e imágenes. Analiza la página web usando filtros incorporados."
+   },
+   "appName": {
+      "message": "Video Downloader GetThemAll"
+   },
+   "button_download": {
+      "message": "Descargar"
+   },
+   "options_about": {
+      "message": "Acerca de"
+   },
+   "options_apply_changes": {
+      "message": "Aplicar cambios"
+   },
+   "options_close": {
+      "message": "Cerrar"
+   },
+   "options_facebook": {
+      "message": "Mostrar el botón de descarga facebook.com"
+   },
+   "options_filename": {
+      "message": "download original FileName"
+   },
+   "options_general": {
+      "message": "OPCIONES"
+   },
+   "options_save": {
+      "message": "Show Save in text"
+   },
+   "options_title": {
+      "message": "Ajustes de GetThemAll"
+   },
+   "options_vk": {
+      "message": "Mostrar el botón de descarga vk.com"
+   },
+   "popup_clear_all": {
+      "message": "Clear all"
+   },
+   "popup_download": {
+      "message": "DESCARGAR"
+   },
+   "popup_download_warning_1": {
+      "message": "¡Importante, por favor leer!"
+   },
+   "popup_download_warning_2": {
+      "message": "Al descargar varios archivos, pueden aparecer múltiples cuadros de diálogo \"Guardar como\"."
+   },
+   "popup_download_warning_3": {
+      "message": "1. Siempre haga clic en el botón PERMITIR. ¡De lo contrario, no podrá descargar múltiples archivos otra vez del sitio web actual!"
+   },
+   "popup_download_warning_4": {
+      "message": "2. Vea un corto vídeo sobre cómo corregir los múltiples cuadros de diálogo."
+   },
+   "popup_download_warning_5": {
+      "message": "¡Comprendo! ¡No mostrar este mensaje de nuevo!"
+   },
+   "popup_download_zip": {
+      "message": "descargar como ZIP"
+   },
+   "popup_downloader_desc": {
+      "message": "Descripción"
+   },
+   "popup_downloader_size": {
+      "message": "Tamaño"
+   },
+   "popup_downloader_url": {
+      "message": "URL"
+   },
+   "popup_filter_mask": {
+      "message": "Mask:"
+   },
+   "popup_noyoutube_message_1": {
+      "message": "Debido a las políticas de YouTube. No se permite descargar de YouTube."
+   },
+   "popup_noyoutube_message_2": {
+      "message": "Por favor, no publique comentarios negativos. No es culpa nuestra."
+   },
+   "popup_noyoutube_message_3": {
+      "message": "Espero que lo comprenda. ¡Gracias!"
+   },
+   "popup_rate_button": {
+      "message": "¡Califíquenos!"
+   },
+   "popup_rate_text": {
+      "message": "Si le gusta, por favor califique nuestro producto."
+   },
+   "popup_reload_message": {
+      "message": "Debe actualizar la página antes de descargar de ella."
+   },
+   "popup_save_link": {
+      "message": "save link in txt"
+   },
+   "popup_select_all": {
+      "message": "Seleccionar todo"
+   },
+   "popup_show_filter": {
+      "message": "Mostrar filtro/ocultar filtro"
+   },
+   "popup_show_more": {
+      "message": "show more than"
+   },
+   "popup_show_previews": {
+      "message": "show previews"
+   },
+   "popup_show_title": {
+      "message": "Show:"
+   },
+   "popup_tab_detected": {
+      "message": "detected"
+   },
+   "popup_tab_name_docs": {
+      "message": "Documentos/Archivos"
+   },
+   "popup_tab_name_images": {
+      "message": "Imágenes"
+   },
+   "popup_tab_name_links": {
+      "message": "Enlaces"
+   },
+   "popup_tab_name_settings": {
+      "message": "Ajustes"
+   },
+   "popup_tab_name_video": {
+      "message": "Vídeo/Flash"
+   },
+   "popup_tab_not_detected": {
+      "message": "Not detected"
+   }
+}

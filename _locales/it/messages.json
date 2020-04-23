@@ -1,0 +1,131 @@
+{
+   "appDesc": {
+      "message": "Scaricare video, file pdf, html, immagini. Analizzare pagina web utilizzando i filtri incorporati."
+   },
+   "appName": {
+      "message": "Video Downloader GetThemAll"
+   },
+   "button_download": {
+      "message": "Scarica"
+   },
+   "options_about": {
+      "message": "Informazioni"
+   },
+   "options_apply_changes": {
+      "message": "Applica le modifiche"
+   },
+   "options_close": {
+      "message": "Chiudi"
+   },
+   "options_facebook": {
+      "message": "Mostra il pulsante scarica di facebook.com"
+   },
+   "options_filename": {
+      "message": "download original FileName"
+   },
+   "options_general": {
+      "message": "OPZIONI"
+   },
+   "options_save": {
+      "message": "Show Save in text"
+   },
+   "options_title": {
+      "message": "Applica tutte le impostazioni"
+   },
+   "options_vk": {
+      "message": "Mostra il pulsante scarica di vk.com"
+   },
+   "popup_clear_all": {
+      "message": "Clear all"
+   },
+   "popup_download": {
+      "message": "SCARICA"
+   },
+   "popup_download_warning_1": {
+      "message": "Note importanti da leggere!"
+   },
+   "popup_download_warning_2": {
+      "message": "Quando scarichi più file, potrebbero aprirsi molte finestre di dialogo Salva con nome."
+   },
+   "popup_download_warning_3": {
+      "message": "1. Fai clic sempre sul pulsante Consenti. In caso contrario, non potrai scaricare di nuovo più file dal sito attuale!"
+   },
+   "popup_download_warning_4": {
+      "message": "2. Guarda il breve video su come risolvere la comparsa di più finestre dialogo."
+   },
+   "popup_download_warning_5": {
+      "message": "Già letto! Non mostrare più questo messaggio!"
+   },
+   "popup_download_zip": {
+      "message": "scarica come ZIP"
+   },
+   "popup_downloader_desc": {
+      "message": "Decrittazione"
+   },
+   "popup_downloader_size": {
+      "message": "Dimensione"
+   },
+   "popup_downloader_url": {
+      "message": "Url"
+   },
+   "popup_filter_mask": {
+      "message": "Mask:"
+   },
+   "popup_noyoutube_message_1": {
+      "message": "La politica di YouTube non consente scaricare contenuti da YouTube."
+   },
+   "popup_noyoutube_message_2": {
+      "message": "Si prega di non pubblicare recensioni negative, in quanto non siamo responsabili di tale disservizio."
+   },
+   "popup_noyoutube_message_3": {
+      "message": "Grazie per comprensione!"
+   },
+   "popup_rate_button": {
+      "message": "Invia il tuo commento!"
+   },
+   "popup_rate_text": {
+      "message": "Indica se ti piace il nostro prodotto."
+   },
+   "popup_reload_message": {
+      "message": "È necessario aggiornare questa pagina prima di poterne scaricare i contenuti"
+   },
+   "popup_save_link": {
+      "message": "save link in txt"
+   },
+   "popup_select_all": {
+      "message": "Seleziona tutto"
+   },
+   "popup_show_filter": {
+      "message": " Mostra filtro/Nascondi filtro"
+   },
+   "popup_show_more": {
+      "message": "show more than"
+   },
+   "popup_show_previews": {
+      "message": "show previews"
+   },
+   "popup_show_title": {
+      "message": "Show:"
+   },
+   "popup_tab_detected": {
+      "message": "detected"
+   },
+   "popup_tab_name_docs": {
+      "message": "Documenti/Archivi/Varie"
+   },
+   "popup_tab_name_images": {
+      "message": "Immagini"
+   },
+   "popup_tab_name_links": {
+      "message": "Collegamenti ipertestuali"
+   },
+   "popup_tab_name_settings": {
+      "message": "Impostazioni"
+   },
+   "popup_tab_name_video": {
+      "message": "Video / Flash"
+   },
+   "popup_tab_not_detected": {
+      "message": "Not detected"
+   }
+}

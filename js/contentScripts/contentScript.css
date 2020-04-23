@@ -1,0 +1,133 @@
+#fvd-single-rate-message{
+	
+	position: fixed;
+	top: -1000px;
+	right: 10px;
+	
+	border: 5px solid rgba(0,0,0,0.5);
+	background-clip: padding-box;
+	background-color: #fff;
+	border-radius: 10px;
+	
+	opacity: 0;
+	
+	-webkit-transition: opacity ease 500ms;
+	
+	font: 10px sans-serif;
+	
+	padding: 10px;
+	
+	text-align: center;
+
+	overflow: hidden;
+	min-width: 250px;
+	
+	-webkit-transition-duration: 400ms;
+  	-webkit-transition-timing-function: ease-in-out;
+	-webkit-transition-property: opacity;
+	
+}
+
+#fvd-single-rate-message[show="1"]{
+	
+	opacity: 1;
+	z-index: 2147483638;
+	top: 10px;
+	
+}
+
+#fvd-single-rate-message div > div{
+	margin-bottom: 5px;
+}
+
+#fvd-single-rate-message .click{
+	cursor: pointer;
+}
+
+#fvd-single-rate-message input{
+	margin: 0px;
+	margin-left: 2px;
+	vertical-align: bottom;
+}
+
+#fvd-single-rate-message .dontshow{
+	margin-top: 20px;
+	font: 10px sans-serif;
+	text-align:left
+}
+
+#fvd-single-rate-message .dontshow label{
+	display: inline-block;
+	vertical-align: top;
+	cursor:pointer;
+}
+
+#fvd-single-rate-message .dontshow strong{
+	font-weight: normal;
+	line-height: 0px;
+	font: 12px sans-serif;
+	font-weight: bold;
+	margin-left:5px;
+	vertical-align: bottom;
+}
+
+#fvd-single-rate-message .bold{
+	
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+
+#fvd-single-rate-message .rate-button {
+	margin-top:15px;
+	height: 24px;
+}
+
+#fvd-single-rate-message .button_concealed  {
+	background: linear-gradient(#84C63C, #489615) repeat scroll 0 0 #489615;
+	padding: 6px 16px 8px 16px;
+	font-size: 12px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;	
+	cursor: pointer;
+	border-radius: 6px;
+	border: 0;
+	color: #fff;
+	box-shadow: 0 3px rgba(0,0,0,.05),0 -4px rgba(0,0,0,.05) inset;
+	-moz-box-shadow: 0 3px rgba(0,0,0,.05),0 -4px rgba(0,0,0,.05) inset;
+	-webkit-box-shadow: 0 3px rgba(0,0,0,.05),0 -4px rgba(0,0,0,.05) inset;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+
+/* ----------------------------------------  DAILYMOTION  ------------------------------------ */
+.dm_button_container {
+	position: absolute;
+	top: -1px;
+	left: 0;
+	border: 1px solid #ddd;
+	-webkit-box-shadow: rgba(0,0,0,0.3) 0 0 1px;
+	-moz-box-shadow: rgba(0,0,0,0.3) 0 0 1px;
+	margin-right: 0;
+	padding: 8px 0 4px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.dm_button_select_item {
+	display: block;
+	padding: 6px 60px 6px 10px!important;
+	height: 16px;
+	font-size: 13px;
+	white-space: nowrap;
+	color: #202020;
+}
+.dm_button_select_item:hover {
+	background-color: #0079b8;
+	color: white;
+}
+
+.dm_button_select_item span {
+	float: left;
+}

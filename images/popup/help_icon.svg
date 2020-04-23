@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>feedback_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="assets" sketch:type="MSArtboardGroup" transform="translate(-108.000000, -115.000000)">
+            <g id="feedback_icon" sketch:type="MSLayerGroup" transform="translate(108.000000, 115.000000)">
+                <rect id="bounds" sketch:type="MSShapeGroup" x="0" y="0" width="16" height="16"></rect>
+                <path d="M3,11 L3,16 L9.5,11 L3,11 Z" id="Path-474" fill="#3E7DB5" sketch:type="MSShapeGroup"></path>
+                <path d="M2,2.99703014 L2,2.99703014 L2,9.00296986 C2,9.54696369 2.44882258,10 3.00247329,10 L12.9975267,10 C13.544239,10 14,9.5536144 14,9.00296986 L14,2.99703014 C14,2.45303631 13.5511774,2 12.9975267,2 L3.00247329,2 C2.45576096,2 2,2.4463856 2,2.99703014 L2,2.99703014 Z M0,2.99703014 L0,2.99703014 C0,1.33958947 1.35334208,0 3.00247329,0 L12.9975267,0 C14.6530687,0 16,1.34579023 16,2.99703014 L16,9.00296986 C16,10.6604105 14.6466579,12 12.9975267,12 L3.00247329,12 C1.34693125,12 0,10.6542098 0,9.00296986 L0,2.99703014 Z" id="Shape" fill="#3E7DB5" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

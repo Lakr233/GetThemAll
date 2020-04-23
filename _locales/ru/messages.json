@@ -1,0 +1,134 @@
+{
+   "appDesc": {
+      "message": "Скачать видео, PDF-файлов, HTML, изображения. Анализ веб-страницы с помощью встроенных фильтров."
+   },
+   "appName": {
+      "message": "Video Downloader GetThemAll"
+   },
+   "button_download": {
+      "message": "Скачать"
+   },
+   "options_about": {
+      "message": "О программе"
+   },
+   "options_apply_changes": {
+      "message": "Применить"
+   },
+   "options_close": {
+      "message": "Закрыть"
+   },
+   "options_facebook": {
+      "message": "Показывать на facebook.com кнопку скачать"
+   },
+   "options_filename": {
+      "message": "Сохранять под оригинальным именем файла"
+   },
+   "options_general": {
+      "message": "Настройки"
+   },
+   "options_save": {
+      "message": "Показывать кнопку Сохранять в текст"
+   },
+   "options_scale": {
+      "message": "Масштаб расширения"
+   },
+   "options_title": {
+      "message": "Параметры GetThemAll"
+   },
+   "options_vk": {
+      "message": "Показывать на vk.com кнопку скачать"
+   },
+   "popup_clear_all": {
+      "message": "Очистить"
+   },
+   "popup_download": {
+      "message": "СКАЧАТЬ"
+   },
+   "popup_download_warning_1": {
+      "message": "Внимание, прочтите, пожалуйста!"
+   },
+   "popup_download_warning_2": {
+      "message": "При загрузке нескольких файлов, может появиться всплывающее окно."
+   },
+   "popup_download_warning_3": {
+      "message": "1. Всегда нажимайте кнопку Разрешить. В противном случае вы не сможете загрузить файлы с текущего сайта!"
+   },
+   "popup_download_warning_4": {
+      "message": "2. Посмотрите короткое видео, как исправить множественную закачку."
+   },
+   "popup_download_warning_5": {
+      "message": "Я понял! Не показывать это сообщение вновь!"
+   },
+   "popup_download_zip": {
+      "message": "скачивать в ZIP"
+   },
+   "popup_downloader_desc": {
+      "message": "Description"
+   },
+   "popup_downloader_size": {
+      "message": "Size"
+   },
+   "popup_downloader_url": {
+      "message": "Url"
+   },
+   "popup_filter_mask": {
+      "message": "Mask:"
+   },
+   "popup_noyoutube_message_1": {
+      "message": "Согласно политики YouTube, не допускается скачивание с YouTube."
+   },
+   "popup_noyoutube_message_2": {
+      "message": "Пожалуйста, не пишите негативные отзывы. Это не наша вина."
+   },
+   "popup_noyoutube_message_3": {
+      "message": "Надеюсь, Вы нас поняли. Спасибо!"
+   },
+   "popup_rate_button": {
+      "message": "Оцените нас!"
+   },
+   "popup_rate_text": {
+      "message": "Если Вам понравился наш продукт, то оцените его."
+   },
+   "popup_reload_message": {
+      "message": "Вы должны обновить эту страницу, прежде чем загрузить с него"
+   },
+   "popup_save_link": {
+      "message": "сохранить ссылки в txt"
+   },
+   "popup_select_all": {
+      "message": "Select all"
+   },
+   "popup_show_filter": {
+      "message": " Show filter / Hide filter "
+   },
+   "popup_show_more": {
+      "message": "show more than"
+   },
+   "popup_show_previews": {
+      "message": "show previews"
+   },
+   "popup_show_title": {
+      "message": "Show:"
+   },
+   "popup_tab_detected": {
+      "message": "найдено"
+   },
+   "popup_tab_name_docs": {
+      "message": "Docs/Archives/Misc"
+   },
+   "popup_tab_name_images": {
+      "message": "Images"
+   },
+   "popup_tab_name_links": {
+      "message": "Links"
+   },
+   "popup_tab_name_settings": {
+      "message": "Параметры"
+   },
+   "popup_tab_name_video": {
+      "message": "Video/Audio"
+   },
+   "popup_tab_not_detected": {
+      "message": "Не найдено"
+   }
+}

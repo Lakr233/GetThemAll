@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_list_filemisc</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="assets" sketch:type="MSArtboardGroup" transform="translate(-495.000000, -195.000000)">
+            <g id="ic_list_filemisc" sketch:type="MSLayerGroup" transform="translate(495.000000, 195.000000)">
+                <rect id="bounds" sketch:type="MSShapeGroup" x="0" y="0" width="24" height="24"></rect>
+                <path d="M3.60355442,23 L3.60355442,23 L19.3964456,23 C19.7278522,23 20,22.7284426 20,22.3973836 L20,5.57787152 L20.3375829,6.32700673 L14.0295032,0.749135212 L14.6919203,1 L3.60744048,1 C3.26946656,1 3,1.26720273 3,1.59329362 L3,22.4067064 C3,22.7301845 3.27097392,23 3.60355442,23 L3.60355442,23 Z M3.60355442,24 C2.71793577,24 2,23.2817277 2,22.4067064 L2,1.59329362 C2,0.713341853 2.71873759,0 3.60744048,0 L14.6919203,0 L21,5.57787152 L21,22.3973836 C21,23.2824842 20.2783785,24 19.3964456,24 L3.60355442,24 L3.60355442,24 Z" id="Shape" fill="#8F8F8F" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
